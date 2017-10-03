@@ -1,0 +1,39 @@
+{
+  "name": "fivefrets-next-ui",
+  "description": "fivefrets UI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vinodronold/fivefrets-next-ui.git",
+  "author": "Vinod Ronold <vinodronoldbe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.16.1",
+    "next": "^3.2.2",
+    "next-redux-saga": "^1.0.1",
+    "next-redux-wrapper": "^1.3.4",
+    "prop-types": "^15.6.0",
+    "react": "15",
+    "react-dom": "15",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.6",
+    "reselect": "^3.0.1",
+    "youtube-player": "^5.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "4.1.1",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-plugin-flowtype": "2.34.1",
+    "eslint-plugin-import": "2.6.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.1.0",
+    "redux-logger": "^3.0.6"
+  }
+}
