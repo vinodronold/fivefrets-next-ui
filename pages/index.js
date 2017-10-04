@@ -1,11 +1,7 @@
 import React from 'react'
+import Layout from '../src/app/Layout'
 export default () => (
-  <div>
+  <Layout>
     <p>fivefrets UI</p>
-    <style jsx>{`
-      p {
-        color: blue;
-      }
-    `}</style>
-  </div>
+  </Layout>
 )
