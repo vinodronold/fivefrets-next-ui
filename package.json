@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "test": "jest",
+    "test": "jest --verbose --silent --coverage",
     "build": "next build",
     "start": "next start"
   },
