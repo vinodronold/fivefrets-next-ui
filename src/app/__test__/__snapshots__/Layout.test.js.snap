@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout.js should match Layout Snapshot 1`] = `
+<div
+  data-jsx={694593078}
+>
+  <div
+    data-jsx={1181656448}
+  >
+    <div
+      className="container"
+      data-jsx={1181656448}
+    >
+      <span
+        data-jsx={1181656448}
+      >
+        fivefrets
+      </span>
+    </div>
+  </div>
+</div>
+`;

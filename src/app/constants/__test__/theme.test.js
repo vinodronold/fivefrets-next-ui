@@ -14,7 +14,7 @@ describe('theme', () => {
   })
 
   it('Font Family should be Helvetica, Arial, sans-serif', () => {
-    expect(theme.baseFont).toBe('Helvetica, Arial, sans-serif')
+    expect(theme.fontFamily).toBe('Helvetica, Arial, sans-serif')
   })
 
   it('Primary Color should be rgba(255,255,255,1)', () => {
