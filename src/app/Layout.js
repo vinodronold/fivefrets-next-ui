@@ -1,11 +1,13 @@
 import React from 'react'
 import { baseFont, fontFamily, color } from './constants/theme'
 import HeaderBar from './components/HeaderBar'
+import Hamburger from './components/Hamburger'
 
 export default ({ children }) => (
   <div>
     <HeaderBar />
     {children}
+    <Hamburger />
     <style jsx global>{`
       html,
       body {
