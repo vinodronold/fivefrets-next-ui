@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hamburger.js should match Arm Snapshot when Closed 1`] = `
+<span
+  className="closed a0"
+  data-jsx={2685137564}
+/>
+`;
+
+exports[`Hamburger.js should match Arm Snapshot when Open 1`] = `
+<span
+  className="open a0"
+  data-jsx={2685137564}
+/>
+`;
+
+exports[`Hamburger.js should match Hamburger Snapshot when Menu is Open 1`] = `
+<div
+  className="container"
+  data-jsx={2097403452}
+>
+  <div
+    className="layers"
+    data-jsx={2097403452}
+  >
+    <span
+      className="open l0"
+      data-jsx={788262494}
+    />
+    <span
+      className="open l1"
+      data-jsx={788262494}
+    />
+    <span
+      className="open l2"
+      data-jsx={788262494}
+    />
+  </div>
+  <div
+    className="arms"
+    data-jsx={2097403452}
+  >
+    <span
+      className="open a0"
+      data-jsx={2685137564}
+    />
+    <span
+      className="open a1"
+      data-jsx={2685137564}
+    />
+  </div>
+</div>
+`;
+
+exports[`Hamburger.js should match Hamburger Snapshot when Search is Open 1`] = `
+<div
+  className="container"
+  data-jsx={2097403452}
+>
+  <div
+    className="layers"
+    data-jsx={2097403452}
+  >
+    <span
+      className="open l0"
+      data-jsx={788262494}
+    />
+    <span
+      className="open l1"
+      data-jsx={788262494}
+    />
+    <span
+      className="open l2"
+      data-jsx={788262494}
+    />
+  </div>
+  <div
+    className="arms"
+    data-jsx={2097403452}
+  >
+    <span
+      className="open a0"
+      data-jsx={2685137564}
+    />
+    <span
+      className="open a1"
+      data-jsx={2685137564}
+    />
+  </div>
+</div>
+`;
+
+exports[`Hamburger.js should match Hamburger Snapshot when close 1`] = `
+<div
+  className="container"
+  data-jsx={2097403452}
+>
+  <div
+    className="layers"
+    data-jsx={2097403452}
+  >
+    <span
+      className="closed l0"
+      data-jsx={788262494}
+    />
+    <span
+      className="closed l1"
+      data-jsx={788262494}
+    />
+    <span
+      className="closed l2"
+      data-jsx={788262494}
+    />
+  </div>
+  <div
+    className="arms"
+    data-jsx={2097403452}
+  >
+    <span
+      className="closed a0"
+      data-jsx={2685137564}
+    />
+    <span
+      className="closed a1"
+      data-jsx={2685137564}
+    />
+  </div>
+</div>
+`;
+
+exports[`Hamburger.js should match Layer Snapshot when Closed 1`] = `
+<span
+  className="closed l0"
+  data-jsx={788262494}
+/>
+`;
+
+exports[`Hamburger.js should match Layer Snapshot when Open 1`] = `
+<span
+  className="open l0"
+  data-jsx={788262494}
+/>
+`;
