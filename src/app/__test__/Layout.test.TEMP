@@ -1,0 +1,12 @@
+import React from 'react'
+// import renderer from 'react-test-renderer'
+import { shallow } from 'enzyme'
+import { withReduxSaga } from '../store'
+import Layout from '../Layout'
+
+describe('Layout.js', () => {
+  it('should match Layout Snapshot', () => {
+    const _HeaderBar = shallow(withReduxSaga(<Layout />))
+    expect(_HeaderBar).toMatchSnapshot()
+  })
+})

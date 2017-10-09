@@ -1,19 +1,24 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import Hamburger, {Layer, Arm} from '../Hamburger'
+import Hamburger, { Layer, Arm } from '../Hamburger'
 
-describe('Hamburger.js', () => {
+describe('components/Hamburger.js', () => {
+
   it('should match Hamburger Snapshot when close', () => {
-    const _Hamburger = renderer.create(<Hamburger />)
+    const _Hamburger = renderer.create(<Hamburger ToggleMenu={jest.fn()} ToggleSearch={jest.fn()} />)
     expect(_Hamburger).toMatchSnapshot()
   })
   it('should match Hamburger Snapshot when Menu is Open', () => {
-    const _Hamburger = renderer.create(<Hamburger isMenuOpen={true} />)
+    const _Hamburger = renderer.create(
+      <Hamburger isMenuOpen={true} ToggleMenu={jest.fn()} ToggleSearch={jest.fn()} />
+    )
     expect(_Hamburger).toMatchSnapshot()
   })
   it('should match Hamburger Snapshot when Search is Open', () => {
-    const _Hamburger = renderer.create(<Hamburger isSearchOpen={true} />)
+    const _Hamburger = renderer.create(
+      <Hamburger isSearchOpen={true} ToggleMenu={jest.fn()} ToggleSearch={jest.fn()} />
+    )
     expect(_Hamburger).toMatchSnapshot()
   })
   it('should match Layer Snapshot when Closed', () => {

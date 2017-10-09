@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Button.js should match disabled snapshot 1`] = `
+<button
+  className="disabled"
+  data-jsx={1805565103}
+  disabled={true}
+>
+  Button Disabled
+</button>
+`;
+
+exports[`components/Button.js should match primary snapshot 1`] = `
+<button
+  className="primary"
+  data-jsx={1805565103}
+  disabled={false}
+>
+  Button
+</button>
+`;

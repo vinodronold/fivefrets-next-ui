@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/MenuList should match snapshot when Menu is closed 1`] = `
+<div
+  className="undefined close"
+  data-jsx={1079888491}
+>
+  <button
+    className="primary"
+    data-jsx={1805565103}
+    disabled={false}
+  >
+    Home
+  </button>
+  <button
+    className="primary"
+    data-jsx={1805565103}
+    disabled={false}
+  >
+    Browse
+  </button>
+  <button
+    className="primary"
+    data-jsx={1805565103}
+    disabled={false}
+  >
+    Login
+  </button>
+</div>
+`;
+
+exports[`components/MenuList should match snapshot when Menu is open 1`] = `
+<div
+  className="undefined open"
+  data-jsx={1079888491}
+>
+  <button
+    className="primary"
+    data-jsx={1805565103}
+    disabled={false}
+  >
+    Home
+  </button>
+  <button
+    className="primary"
+    data-jsx={1805565103}
+    disabled={false}
+  >
+    Browse
+  </button>
+  <button
+    className="primary"
+    data-jsx={1805565103}
+    disabled={false}
+  >
+    Login
+  </button>
+</div>
+`;

@@ -1,23 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Hamburger.js should match Arm Snapshot when Closed 1`] = `
+exports[`components/Hamburger.js should match Arm Snapshot when Closed 1`] = `
 <span
   className="closed a0"
   data-jsx={2685137564}
 />
 `;
 
-exports[`Hamburger.js should match Arm Snapshot when Open 1`] = `
+exports[`components/Hamburger.js should match Arm Snapshot when Open 1`] = `
 <span
   className="open a0"
   data-jsx={2685137564}
 />
 `;
 
-exports[`Hamburger.js should match Hamburger Snapshot when Menu is Open 1`] = `
+exports[`components/Hamburger.js should match Hamburger Snapshot when Menu is Open 1`] = `
 <div
   className="container"
   data-jsx={2097403452}
+  onClick={[Function]}
 >
   <div
     className="layers"
@@ -52,10 +53,11 @@ exports[`Hamburger.js should match Hamburger Snapshot when Menu is Open 1`] = `
 </div>
 `;
 
-exports[`Hamburger.js should match Hamburger Snapshot when Search is Open 1`] = `
+exports[`components/Hamburger.js should match Hamburger Snapshot when Search is Open 1`] = `
 <div
   className="container"
   data-jsx={2097403452}
+  onClick={[Function]}
 >
   <div
     className="layers"
@@ -90,10 +92,11 @@ exports[`Hamburger.js should match Hamburger Snapshot when Search is Open 1`] = 
 </div>
 `;
 
-exports[`Hamburger.js should match Hamburger Snapshot when close 1`] = `
+exports[`components/Hamburger.js should match Hamburger Snapshot when close 1`] = `
 <div
   className="container"
   data-jsx={2097403452}
+  onClick={[Function]}
 >
   <div
     className="layers"
@@ -128,14 +131,14 @@ exports[`Hamburger.js should match Hamburger Snapshot when close 1`] = `
 </div>
 `;
 
-exports[`Hamburger.js should match Layer Snapshot when Closed 1`] = `
+exports[`components/Hamburger.js should match Layer Snapshot when Closed 1`] = `
 <span
   className="closed l0"
   data-jsx={788262494}
 />
 `;
 
-exports[`Hamburger.js should match Layer Snapshot when Open 1`] = `
+exports[`components/Hamburger.js should match Layer Snapshot when Open 1`] = `
 <span
   className="open l0"
   data-jsx={788262494}

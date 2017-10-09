@@ -1,8 +1,21 @@
 import React from 'react'
+import { bool, func, number } from 'prop-types'
 import { color } from '../../constants/theme'
 
+const _propTypes_Sub = {
+  n: number.isRequired,
+  isOpen: bool.isRequired
+}
+
+const _propTypes_Hamburger = {
+  isMenuOpen: bool.isRequired,
+  isSearchOpen: bool.isRequired,
+  ToggleMenu: func.isRequired,
+  ToggleSearch: func.isRequired
+}
+
 const dim = 5
-export const Layer = ({ n, isOpen = false }) => (
+export const Layer = ({ n, isOpen = false, ...props }) => (
   <span className={`${isOpen ? 'open' : 'closed'} l${n}`}>
     <style jsx>{`
       span {
@@ -75,8 +88,8 @@ export const Arm = ({ n, isOpen = false }) => (
   </span>
 )
 
-export default ({ isMenuOpen = false, isSearchOpen = false, ToggleMenu, ToggleSearch }) => (
-  <div className="container">
+const Hamburger = ({ isMenuOpen = false, isSearchOpen = false, ToggleMenu, ToggleSearch }) => (
+  <div className="container" onClick={isSearchOpen ? ToggleSearch : ToggleMenu}>
     <div className="layers">
       {Array(3)
         .fill(1)
@@ -118,3 +131,9 @@ export default ({ isMenuOpen = false, isSearchOpen = false, ToggleMenu, ToggleSe
     `}</style>
   </div>
 )
+
+Layer.propTypes = _propTypes_Sub
+Arm.propTypes = _propTypes_Sub
+Hamburger.propTypes = _propTypes_Hamburger
+
+export default Hamburger
