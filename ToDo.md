@@ -27,7 +27,7 @@
 - [ ] ~~Add Initial State~~ (same action as MenuButton, MenuButton state is toggled)
 - [ ] ~~Create Reducer~~ (same action as MenuButton, MenuButton state is toggled)
 - [x] Create Containers
-- [x] Test Actions
+- [ ] ~~Test Actions~~ (same action as MenuButton, MenuButton state is toggled)
 - [ ] ~~Test Reducers~~ (same action as MenuButton, MenuButton state is toggled)
 - [x] Test Components
 
