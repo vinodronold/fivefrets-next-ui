@@ -22,13 +22,13 @@
 
 ## MenuList (Display when a Menu Button is Clicked, close when X is clicked)
 - [x] Create Component
-- [-] Add Action Type Constant (same action as MenuButton, MenuButton state is toggled)
-- [-] Create Actions (same action as MenuButton, MenuButton state is toggled)
-- [-] Add Initial State (same action as MenuButton, MenuButton state is toggled)
-- [-] Create Reducer (same action as MenuButton, MenuButton state is toggled)
+- [ ] ~~Add Action Type Constant~~ (same action as MenuButton, MenuButton state is toggled)
+- [ ] ~~Create Actions~~ (same action as MenuButton, MenuButton state is toggled)
+- [ ] ~~Add Initial State~~ (same action as MenuButton, MenuButton state is toggled)
+- [ ] ~~Create Reducer~~ (same action as MenuButton, MenuButton state is toggled)
 - [x] Create Containers
 - [x] Test Actions
-- [-] Test Reducers (same action as MenuButton, MenuButton state is toggled)
+- [ ] ~~Test Reducers~~ (same action as MenuButton, MenuButton state is toggled)
 - [x] Test Components
 
 ## Misc
