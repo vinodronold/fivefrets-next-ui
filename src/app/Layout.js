@@ -3,13 +3,16 @@ import { baseFont, fontFamily, color } from './constants/theme'
 import HeaderBar from './components/HeaderBar'
 import MenuButton from './containers/MenuButton'
 import Menu from './containers/Menu'
+import Loader from './components/Loader'
 
 export default ({ children }) => (
   <div>
     <HeaderBar />
     {children}
+    <Loader />
     <Menu />
     <MenuButton />
+
     <style jsx global>{`
       html,
       body {

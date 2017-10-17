@@ -1,11 +1,10 @@
-/* eslint-env jest */
 import { shallow } from 'enzyme'
 import React from 'react'
 import renderer from 'react-test-renderer'
 
 import Headerbar from '../HeaderBar'
 
-describe('HeaderBar.js', () => {
+describe('components/HeaderBar.js', () => {
     it('should contain two div, one span and text fivefrets', () => {
         const _HeaderBar = shallow(<Headerbar />)
         expect(_HeaderBar.find('div')).toHaveLength(2)

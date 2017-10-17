@@ -1,44 +1,43 @@
-import React from 'react'
+import React, { PureComponent } from 'react'
 import { node } from 'prop-types'
 import { color } from '../../constants/theme'
 
-const _propTypes = {
-  children: node.isRequired
+export default class Button extends PureComponent {
+  static propTypes = {
+    children: node.isRequired
+  }
+
+  render() {
+    const { disabled = false, children, ...props } = this.props
+    return (
+      <button disabled={disabled} {...props}>
+        {children}
+        <style jsx>
+          {`
+            button {
+              font-size: 0.938rem;
+              cursor: pointer;
+              padding: 0.5rem 1rem;
+              letter-spacing: 0.2rem;
+              line-height: 0.938rem;
+              height: 2.5rem;
+              background: transparent;
+              border: none;
+              transition: all 0.5s;
+              color: ${!disabled && color.primary()};
+            }
+            button:hover {
+              color: ${!disabled && color.secondary()};
+            }
+            button:focus {
+              outline: none;
+            }
+            button:disabled {
+              cursor: not-allowed;
+            }
+          `}
+        </style>
+      </button>
+    )
+  }
 }
-
-const Button = ({ disabled = false, children, ...props }) => (
-  <button disabled={disabled} className={`${!disabled ? 'primary' : 'disabled'}`} {...props}>
-    {children}
-    <style jsx>
-      {`
-        button {
-          font-size: 0.938rem;
-          cursor: pointer;
-          padding: 0.5rem 1rem;
-          letter-spacing: 0.2rem;
-          line-height: 0.938rem;
-          height: 2.5rem;
-          background: transparent;
-          border: none;
-          transition: all 0.5s;
-        }
-        button.primary {
-          color: ${color.primary()};
-        }
-        button:focus {
-          outline: none;
-        }
-        button.primary:hover {
-          color: ${color.secondary()};
-        }
-        button:disabled {
-          cursor: not-allowed;
-        }
-      `}
-    </style>
-  </button>
-)
-
-Button.propTypes = _propTypes
-
-export default Button

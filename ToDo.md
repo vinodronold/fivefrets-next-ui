@@ -35,3 +35,10 @@
 ### Buttons
 - [x] Create Component
 - [x] Test Components
+### Loader
+- [x] Create Component
+- [x] Test Components
+### Typography
+#### Captions
+- [x] Create Component
+- [ ] Test Components

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Loader.js should matah the snapshot 1`] = `
+<div
+  className="container"
+  data-jsx={4122517445}
+>
+  <div
+    className="loader"
+    data-jsx={4122517445}
+  >
+    <div
+      className="bar"
+      data-jsx={4122517445}
+    />
+    <div
+      className="bar d1"
+      data-jsx={4122517445}
+    />
+    <div
+      className="bar d2"
+      data-jsx={4122517445}
+    />
+    <div
+      className="bar d3"
+      data-jsx={4122517445}
+    />
+    <div
+      className="bar d4"
+      data-jsx={4122517445}
+    />
+  </div>
+</div>
+`;
