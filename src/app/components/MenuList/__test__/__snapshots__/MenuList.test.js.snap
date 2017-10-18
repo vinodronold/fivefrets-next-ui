@@ -2,26 +2,22 @@
 
 exports[`components/MenuList should match snapshot when Menu is closed 1`] = `
 <div
-  className="undefined close"
-  data-jsx={1079888491}
+  className="jsx-2435928121 jsx-1915852374"
 >
   <button
-    className="primary"
-    data-jsx={1805565103}
+    className="jsx-67710159 jsx-4255320455 "
     disabled={false}
   >
     Home
   </button>
   <button
-    className="primary"
-    data-jsx={1805565103}
+    className="jsx-67710159 jsx-4255320455 "
     disabled={false}
   >
     Browse
   </button>
   <button
-    className="primary"
-    data-jsx={1805565103}
+    className="jsx-67710159 jsx-4255320455 "
     disabled={false}
   >
     Login
@@ -31,26 +27,22 @@ exports[`components/MenuList should match snapshot when Menu is closed 1`] = `
 
 exports[`components/MenuList should match snapshot when Menu is open 1`] = `
 <div
-  className="undefined open"
-  data-jsx={1079888491}
+  className="jsx-2435928121 jsx-838536390"
 >
   <button
-    className="primary"
-    data-jsx={1805565103}
+    className="jsx-67710159 jsx-4255320455 "
     disabled={false}
   >
     Home
   </button>
   <button
-    className="primary"
-    data-jsx={1805565103}
+    className="jsx-67710159 jsx-4255320455 "
     disabled={false}
   >
     Browse
   </button>
   <button
-    className="primary"
-    data-jsx={1805565103}
+    className="jsx-67710159 jsx-4255320455 "
     disabled={false}
   >
     Login

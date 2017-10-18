@@ -4,7 +4,7 @@ import { color } from '../../constants/theme'
 
 const dim = 5
 
-class Layer extends PureComponent {
+export class Layer extends PureComponent {
   static propTypes = {
     n: number.isRequired,
     isOpen: bool.isRequired
@@ -34,7 +34,7 @@ class Layer extends PureComponent {
   }
 }
 
-class Arm extends PureComponent {
+export class Arm extends PureComponent {
   static propTypes = {
     n: number.isRequired,
     isOpen: bool.isRequired
@@ -49,6 +49,10 @@ class Arm extends PureComponent {
             position: absolute;
             transition: 0.25s ease-in-out;
             background: ${color.primary()};
+          }
+        `}</style>
+        <style jsx>{`
+          span {
             top: ${n === 1 ? `30%` : `${dim * 0.48}rem`};
             left: ${n === 1 ? `${dim * 0.48}rem` : `30%`};
             width: ${n === 1 ? `4px` : `${isOpen ? 40 : 0}%`};

@@ -5,11 +5,10 @@ export default class HeaderBar extends PureComponent {
   render() {
     return (
       <div>
-        <div className="container">
-          <span>fivefrets</span>
-        </div>
-        <style jsx>{`
-          .container {
+        <span>fivefrets</span>
+        <style jsx>
+          {`
+          div {
             position: relative;
             top: 0;
             left: 0;
@@ -28,7 +27,8 @@ export default class HeaderBar extends PureComponent {
             letter-spacing: 0.75rem;
             font-feature-settings: "liga" 0;
           }
-    `}</style>
+          `}
+        </style>
       </div>
     )
   }

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component/Typography Caption should match Snapshot 1`] = `
+<div
+  className="jsx-4247411757 jsx-3754337244"
+>
+  Caption
+</div>
+`;
+
+exports[`component/Typography Display1 should match Snapshot 1`] = `
+<div
+  className="jsx-4247411757 jsx-2107752004"
+>
+  Display1
+</div>
+`;

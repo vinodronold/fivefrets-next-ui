@@ -2,8 +2,7 @@
 
 exports[`components/Button.js should match disabled snapshot 1`] = `
 <button
-  className="disabled"
-  data-jsx={1805565103}
+  className="jsx-67710159 jsx-3220588738 "
   disabled={true}
 >
   Button Disabled
@@ -12,8 +11,7 @@ exports[`components/Button.js should match disabled snapshot 1`] = `
 
 exports[`components/Button.js should match primary snapshot 1`] = `
 <button
-  className="primary"
-  data-jsx={1805565103}
+  className="jsx-67710159 jsx-4255320455 "
   disabled={false}
 >
   Button

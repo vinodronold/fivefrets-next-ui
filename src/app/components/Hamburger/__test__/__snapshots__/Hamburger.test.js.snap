@@ -2,52 +2,42 @@
 
 exports[`components/Hamburger.js should match Arm Snapshot when Closed 1`] = `
 <span
-  className="closed a0"
-  data-jsx={2685137564}
+  className="jsx-301163176 jsx-179826770"
 />
 `;
 
 exports[`components/Hamburger.js should match Arm Snapshot when Open 1`] = `
 <span
-  className="open a0"
-  data-jsx={2685137564}
+  className="jsx-301163176 jsx-794770576"
 />
 `;
 
 exports[`components/Hamburger.js should match Hamburger Snapshot when Menu is Open 1`] = `
 <div
-  className="container"
-  data-jsx={2097403452}
+  className="jsx-4125533449 container"
   onClick={[Function]}
 >
   <div
-    className="layers"
-    data-jsx={2097403452}
+    className="jsx-4125533449 layers"
   >
     <span
-      className="open l0"
-      data-jsx={788262494}
+      className="jsx-1304497301"
     />
     <span
-      className="open l1"
-      data-jsx={788262494}
+      className="jsx-283106720"
     />
     <span
-      className="open l2"
-      data-jsx={788262494}
+      className="jsx-3759017912"
     />
   </div>
   <div
-    className="arms"
-    data-jsx={2097403452}
+    className="jsx-4125533449 arms"
   >
     <span
-      className="open a0"
-      data-jsx={2685137564}
+      className="jsx-301163176 jsx-794770576"
     />
     <span
-      className="open a1"
-      data-jsx={2685137564}
+      className="jsx-301163176 jsx-3128104624"
     />
   </div>
 </div>
@@ -55,38 +45,30 @@ exports[`components/Hamburger.js should match Hamburger Snapshot when Menu is Op
 
 exports[`components/Hamburger.js should match Hamburger Snapshot when Search is Open 1`] = `
 <div
-  className="container"
-  data-jsx={2097403452}
+  className="jsx-4125533449 container"
   onClick={[Function]}
 >
   <div
-    className="layers"
-    data-jsx={2097403452}
+    className="jsx-4125533449 layers"
   >
     <span
-      className="open l0"
-      data-jsx={788262494}
+      className="jsx-1304497301"
     />
     <span
-      className="open l1"
-      data-jsx={788262494}
+      className="jsx-283106720"
     />
     <span
-      className="open l2"
-      data-jsx={788262494}
+      className="jsx-3759017912"
     />
   </div>
   <div
-    className="arms"
-    data-jsx={2097403452}
+    className="jsx-4125533449 arms"
   >
     <span
-      className="open a0"
-      data-jsx={2685137564}
+      className="jsx-301163176 jsx-794770576"
     />
     <span
-      className="open a1"
-      data-jsx={2685137564}
+      className="jsx-301163176 jsx-3128104624"
     />
   </div>
 </div>
@@ -94,38 +76,30 @@ exports[`components/Hamburger.js should match Hamburger Snapshot when Search is 
 
 exports[`components/Hamburger.js should match Hamburger Snapshot when close 1`] = `
 <div
-  className="container"
-  data-jsx={2097403452}
+  className="jsx-4125533449 container"
   onClick={[Function]}
 >
   <div
-    className="layers"
-    data-jsx={2097403452}
+    className="jsx-4125533449 layers"
   >
     <span
-      className="closed l0"
-      data-jsx={788262494}
+      className="jsx-3221435804"
     />
     <span
-      className="closed l1"
-      data-jsx={788262494}
+      className="jsx-3063298808"
     />
     <span
-      className="closed l2"
-      data-jsx={788262494}
+      className="jsx-3630948284"
     />
   </div>
   <div
-    className="arms"
-    data-jsx={2097403452}
+    className="jsx-4125533449 arms"
   >
     <span
-      className="closed a0"
-      data-jsx={2685137564}
+      className="jsx-301163176 jsx-179826770"
     />
     <span
-      className="closed a1"
-      data-jsx={2685137564}
+      className="jsx-301163176 jsx-2834914619"
     />
   </div>
 </div>
@@ -133,14 +107,12 @@ exports[`components/Hamburger.js should match Hamburger Snapshot when close 1`] 
 
 exports[`components/Hamburger.js should match Layer Snapshot when Closed 1`] = `
 <span
-  className="closed l0"
-  data-jsx={788262494}
+  className="jsx-3221435804"
 />
 `;
 
 exports[`components/Hamburger.js should match Layer Snapshot when Open 1`] = `
 <span
-  className="open l0"
-  data-jsx={788262494}
+  className="jsx-1304497301"
 />
 `;

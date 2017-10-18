@@ -2,33 +2,31 @@
 
 exports[`components/Loader.js should matah the snapshot 1`] = `
 <div
-  className="container"
-  data-jsx={4122517445}
+  className="jsx-3649670468 container"
 >
   <div
-    className="loader"
-    data-jsx={4122517445}
+    className="jsx-3649670468 loader"
   >
     <div
-      className="bar"
-      data-jsx={4122517445}
+      className="jsx-791847780 jsx-2291006144 bar"
     />
     <div
-      className="bar d1"
-      data-jsx={4122517445}
+      className="jsx-791847780 jsx-3500035231 bar"
     />
     <div
-      className="bar d2"
-      data-jsx={4122517445}
+      className="jsx-791847780 jsx-1901401244 bar"
     />
     <div
-      className="bar d3"
-      data-jsx={4122517445}
+      className="jsx-791847780 jsx-40336921 bar"
     />
     <div
-      className="bar d4"
-      data-jsx={4122517445}
+      className="jsx-791847780 jsx-3370661658 bar"
     />
+  </div>
+  <div
+    className="jsx-4247411757 jsx-3754337244"
+  >
+    LOADING...
   </div>
 </div>
 `;

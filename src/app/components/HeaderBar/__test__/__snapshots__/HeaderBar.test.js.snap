@@ -1,18 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HeaderBar.js should match Headerbar Snapshot 1`] = `
+exports[`components/HeaderBar.js should match Headerbar Snapshot 1`] = `
 <div
-  data-jsx={1181656448}
+  className="jsx-3186897990"
 >
-  <div
-    className="container"
-    data-jsx={1181656448}
+  <span
+    className="jsx-3186897990"
   >
-    <span
-      data-jsx={1181656448}
-    >
-      fivefrets
-    </span>
-  </div>
+    fivefrets
+  </span>
 </div>
 `;

@@ -2,16 +2,48 @@ import React, { PureComponent } from 'react'
 import { color } from '../../constants/theme'
 import { Caption } from '../Typography'
 
+export class Bar extends PureComponent {
+  render() {
+    const { n } = this.props
+    return (
+      <div className="bar">
+        <style jsx>{`
+          .bar {
+            padding: 1rem;
+            margin: 0.25rem;
+            background-color: ${color.secondary()};
+            transform: scaleY(0.75);
+            animation: loading 0.5s infinite ease-in-out alternate;
+          }
+          @keyframes loading {
+            0% {
+              transform: scaleY(0.75);
+            }
+            100% {
+              transform: scaleY(1.25);
+            }
+          }
+        `}</style>
+        <style jsx>{`
+          .bar {
+            animation-delay: ${0.1 * n}s;
+          }
+        `}</style>
+      </div>
+    )
+  }
+}
+
 export default class Loader extends PureComponent {
   render() {
     return (
       <div className="container">
         <div className="loader">
-          <div className="bar" />
-          <div className="bar d1" />
-          <div className="bar d2" />
-          <div className="bar d3" />
-          <div className="bar d4" />
+          <Bar n={0} />
+          <Bar n={1} />
+          <Bar n={2} />
+          <Bar n={3} />
+          <Bar n={4} />
         </div>
         <Caption>LOADING...</Caption>
 
@@ -23,33 +55,6 @@ export default class Loader extends PureComponent {
             display: flex;
             justify-content: center;
             margin: 2rem;
-          }
-          .bar {
-            padding: 1rem;
-            margin: 0.25rem;
-            background-color: ${color.secondary()};
-            transform: scaleY(0.75);
-            animation: loading 0.5s infinite ease-in-out alternate;
-          }
-          .d1 {
-            animation-delay: 0.1s;
-          }
-          .d2 {
-            animation-delay: 0.2s;
-          }
-          .d3 {
-            animation-delay: 0.3s;
-          }
-          .d4 {
-            animation-delay: 0.4s;
-          }
-          @keyframes loading {
-            0% {
-              transform: scaleY(0.75);
-            }
-            100% {
-              transform: scaleY(1.25);
-            }
           }
         `}</style>
       </div>

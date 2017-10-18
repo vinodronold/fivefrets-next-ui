@@ -31,6 +31,28 @@
 - [ ] ~~Test Reducers~~ (same action as MenuButton, MenuButton state is toggled)
 - [x] Test Components
 
+## Home Page (Display Song List)
+- [ ] Create Component
+- [ ] Add Action Type Constant
+- [ ] Create Actions (for opening and closing menu)
+- [ ] Add Initial State
+- [ ] Create Reducer
+- [ ] Create Containers
+- [ ] Test Actions
+- [ ] Test Reducers
+- [ ] Test Components
+
+## Cards - To Display the songs in the home page
+- [ ] Create Component
+- [ ] Add Action Type Constant
+- [ ] Create Actions (for opening and closing menu)
+- [ ] Add Initial State
+- [ ] Create Reducer
+- [ ] Create Containers
+- [ ] Test Actions
+- [ ] Test Reducers
+- [ ] Test Components
+
 ## Misc
 ### Buttons
 - [x] Create Component
@@ -41,4 +63,7 @@
 ### Typography
 #### Captions
 - [x] Create Component
-- [ ] Test Components
+- [x] Test Components
+#### Display1
+- [x] Create Component
+- [x] Test Components

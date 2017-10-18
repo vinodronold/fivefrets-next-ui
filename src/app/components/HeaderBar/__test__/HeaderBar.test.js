@@ -5,9 +5,9 @@ import renderer from 'react-test-renderer'
 import Headerbar from '../HeaderBar'
 
 describe('components/HeaderBar.js', () => {
-    it('should contain two div, one span and text fivefrets', () => {
+    it('should contain one div, one span and text fivefrets', () => {
         const _HeaderBar = shallow(<Headerbar />)
-        expect(_HeaderBar.find('div')).toHaveLength(2)
+        expect(_HeaderBar.find('div')).toHaveLength(1)
         expect(_HeaderBar.find('span')).toHaveLength(1)
         expect(_HeaderBar.find('span').text()).toBe('fivefrets')
     })
