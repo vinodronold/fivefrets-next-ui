@@ -17,7 +17,7 @@
 - [x] Create Reducer
 - [x] Create Containers
 - [x] Test Actions
-- [ ] Test Reducers
+- [x] Test Reducers
 - [x] Test Components
 
 ## MenuList (Display when a Menu Button is Clicked, close when X is clicked)
