@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components/Loader.js should matah the snapshot 1`] = `
+exports[`components/Loader.js should match the snapshot 1`] = `
 <div
   className="jsx-3649670468 container"
 >
@@ -25,6 +25,7 @@ exports[`components/Loader.js should matah the snapshot 1`] = `
   </div>
   <div
     className="jsx-4247411757 jsx-3754337244"
+    style={Object {}}
   >
     LOADING...
   </div>

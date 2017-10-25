@@ -1,6 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { GetLetterSpacing, Display1, Caption } from '../Typography'
+import { GetLetterSpacing, Caption, SubHeading1, Title } from '../Typography'
 
 describe('component/Typography', () => {
   it('GetLetterSpacing should return rem when letter-spacing is number', () => {
@@ -12,9 +12,14 @@ describe('component/Typography', () => {
     expect(GetLetterSpacing(_ls)).toBe(_ls)
   })
 
-  it('Display1 should match Snapshot', () => {
-    const _display_1 = renderer.create(<Display1>Display1</Display1>)
-    expect(_display_1).toMatchSnapshot()
+  it('SubHeading1 should match Snapshot', () => {
+    const _SubHeading1 = renderer.create(<SubHeading1>SubHeading1</SubHeading1>)
+    expect(_SubHeading1).toMatchSnapshot()
+  })
+
+  it('Title should match Snapshot', () => {
+    const _Title = renderer.create(<Title>Title</Title>)
+    expect(_Title).toMatchSnapshot()
   })
 
   it('Caption should match Snapshot', () => {

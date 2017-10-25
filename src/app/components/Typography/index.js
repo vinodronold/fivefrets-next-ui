@@ -1,3 +1,3 @@
-import { Caption, Display1 } from './Typography'
+import { Title, SubHeading1, Caption } from './Typography'
 
-export { Caption, Display1 }
+export { Title, SubHeading1, Caption }

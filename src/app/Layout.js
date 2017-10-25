@@ -3,13 +3,16 @@ import { baseFont, fontFamily, color } from './constants/theme'
 import HeaderBar from './components/HeaderBar'
 import MenuButton from './containers/MenuButton'
 import Menu from './containers/Menu'
-import Loader from './components/Loader'
+import Content from './containers/Content'
+import SearchBar from './containers/SearchBar'
 
 export default ({ children }) => (
   <div>
-    <HeaderBar />
-    {children}
-    <Loader />
+    <Content>
+      <HeaderBar />
+      <SearchBar />
+      {children}
+    </Content>
     <Menu />
     <MenuButton />
 

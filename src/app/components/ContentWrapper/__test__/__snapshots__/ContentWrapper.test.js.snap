@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/ContentWrapper should match menu is closed 1`] = `
+<div
+  className="jsx-2935080927"
+/>
+`;
+
+exports[`components/ContentWrapper should match menu is open 1`] = `
+<div
+  className="jsx-115571663"
+/>
+`;

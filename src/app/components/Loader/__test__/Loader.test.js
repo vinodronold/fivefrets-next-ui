@@ -20,7 +20,7 @@ describe('components/Loader.js', () => {
   //   expect(_loader.find('.d3')).toHaveLength(1)
   //   expect(_loader.find('.d4')).toHaveLength(1)
   // })
-  it('should matah the snapshot', () => {
+  it('should match the snapshot', () => {
     let _loader = renderer.create(<Loader />)
     expect(_loader).toMatchSnapshot()
   })

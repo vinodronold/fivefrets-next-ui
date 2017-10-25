@@ -1,8 +1,12 @@
 import React, { PureComponent } from 'react'
+import { number } from 'prop-types'
 import { color } from '../../constants/theme'
 import { Caption } from '../Typography'
 
 export class Bar extends PureComponent {
+  static propTypes = {
+    n: number.isRequired
+  }
   render() {
     const { n } = this.props
     return (

@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Search DisplayResult should match DisplayResult snapshot 1`] = `
+<div
+  className="jsx-3649670468 container"
+>
+  <div
+    className="jsx-3649670468 loader"
+  >
+    <div
+      className="jsx-791847780 jsx-2291006144 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-3500035231 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-1901401244 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-40336921 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-3370661658 bar"
+    />
+  </div>
+  <div
+    className="jsx-4247411757 jsx-3754337244"
+    style={Object {}}
+  >
+    LOADING...
+  </div>
+</div>
+`;
+
+exports[`components/Search DisplayResult should match DisplayResult snapshot when Error 1`] = `
+<div
+  className="jsx-4247411757 jsx-3754337244"
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
+>
+  Oops.. Error.. Search did not complete.. Sorry..
+</div>
+`;
+
+exports[`components/Search DisplayResult should match DisplayResult snapshot with results 1`] = `
+<div
+  className="jsx-1201711722"
+>
+  <div
+    className="jsx-2416660906"
+  >
+    <div
+      className="jsx-4231049512"
+    >
+      <img
+        alt="YT"
+        className="jsx-4231049512"
+        height="45rem"
+        src="https://i.ytimg.com/vi/1/default.jpg"
+        width="auto"
+      />
+    </div>
+    <div
+      className="jsx-250553575"
+    >
+      <div
+        className="jsx-4247411757 jsx-873826105"
+        style={Object {}}
+      >
+        title 1
+      </div>
+      <div
+        className="jsx-4247411757 jsx-482228210"
+        style={Object {}}
+      >
+        subtitle 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="jsx-2416660906"
+  >
+    <div
+      className="jsx-4231049512"
+    >
+      <img
+        alt="YT"
+        className="jsx-4231049512"
+        height="45rem"
+        src="https://i.ytimg.com/vi/2/default.jpg"
+        width="auto"
+      />
+    </div>
+    <div
+      className="jsx-250553575"
+    >
+      <div
+        className="jsx-4247411757 jsx-873826105"
+        style={Object {}}
+      >
+        title 2
+      </div>
+      <div
+        className="jsx-4247411757 jsx-482228210"
+        style={Object {}}
+      >
+        subtitle 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Search Search should match Search Snapshot when Display Results 1`] = `
+<div
+  className="jsx-966561052 jsx-248342299 container open"
+>
+  <div
+    className="jsx-966561052 jsx-248342299 search"
+  >
+    <input
+      className="jsx-966561052 jsx-248342299"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value="abc"
+    />
+  </div>
+  <div
+    className="jsx-4247411757 jsx-3754337244"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    Oops.. Error.. Search did not complete.. Sorry..
+  </div>
+</div>
+`;
+
+exports[`components/Search Search should match Search Snapshot when Error 1`] = `
+<div
+  className="jsx-966561052 jsx-248342299 container open"
+>
+  <div
+    className="jsx-966561052 jsx-248342299 search"
+  >
+    <input
+      className="jsx-966561052 jsx-248342299"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+  </div>
+  
+</div>
+`;
+
+exports[`components/Search Search should match Search Snapshot when not open 1`] = `
+<div
+  className="jsx-966561052 jsx-369727501 container closed"
+>
+  <div
+    className="jsx-966561052 jsx-369727501 search"
+  >
+    <input
+      className="jsx-966561052 jsx-369727501"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+  </div>
+  
+</div>
+`;
+
+exports[`components/Search Search should match Search Snapshot when open 1`] = `
+<div
+  className="jsx-966561052 jsx-248342299 container open"
+>
+  <div
+    className="jsx-966561052 jsx-248342299 search"
+  >
+    <input
+      className="jsx-966561052 jsx-248342299"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+  </div>
+  
+</div>
+`;
+
+exports[`components/Search onChange Functions should match the snapshot after onChange 1`] = `
+<div
+  className="jsx-966561052 jsx-369727501 container closed"
+>
+  <div
+    className="jsx-966561052 jsx-369727501 search"
+  >
+    <input
+      className="jsx-966561052 jsx-369727501"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+  </div>
+  <JSXStyle
+    css="div.container.jsx-966561052{padding:4rem;}div.container.open.jsx-966561052{padding:2rem;position:fixed;background-color:rgba(0,0,0,1);top:0;bottom:0;left:0;right:0;zindex:12;margintop:3rem;}div.search.jsx-966561052{text-align:center;}input.jsx-966561052{background-color:rgba(0,0,0,0);border-style:none;width:80%;border-bottom:2px solid #fff;color:rgba(255,255,255,1);}input.jsx-966561052:focus{outline:none;}"
+    styleId="966561052"
+  />
+  <JSXStyle
+    css="input.__jsx-style-dynamic-selector{text-align:center;font-size:2rem;}"
+    dynamic={
+      Array [
+        "center",
+        "2rem",
+      ]
+    }
+    styleId="3662217438"
+  />
+</div>
+`;

@@ -3,15 +3,26 @@
 exports[`component/Typography Caption should match Snapshot 1`] = `
 <div
   className="jsx-4247411757 jsx-3754337244"
+  style={Object {}}
 >
   Caption
 </div>
 `;
 
-exports[`component/Typography Display1 should match Snapshot 1`] = `
+exports[`component/Typography SubHeading1 should match Snapshot 1`] = `
 <div
-  className="jsx-4247411757 jsx-2107752004"
+  className="jsx-4247411757 jsx-482228210"
+  style={Object {}}
 >
-  Display1
+  SubHeading1
+</div>
+`;
+
+exports[`component/Typography Title should match Snapshot 1`] = `
+<div
+  className="jsx-4247411757 jsx-873826105"
+  style={Object {}}
+>
+  Title
 </div>
 `;

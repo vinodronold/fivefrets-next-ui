@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Card.js should match the Card spanshot with default height 1`] = `
+<div
+  className="jsx-2416660906"
+>
+  <div
+    className="jsx-4231049512"
+  >
+    <img
+      alt="YT"
+      className="jsx-4231049512"
+      height="auto"
+      src="https://i.ytimg.com/vi/test_id/default.jpg"
+      width="auto"
+    />
+  </div>
+  <div
+    className="jsx-250553575"
+  >
+    <div
+      className="jsx-4247411757 jsx-873826105"
+      style={Object {}}
+    >
+      title
+    </div>
+    <div
+      className="jsx-4247411757 jsx-482228210"
+      style={Object {}}
+    >
+      subtitle
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Card.js should match the Card spanshot with defined height 1`] = `
+<div
+  className="jsx-2416660906"
+>
+  <div
+    className="jsx-4231049512"
+  >
+    <img
+      alt="YT"
+      className="jsx-4231049512"
+      height="20rem"
+      src="https://i.ytimg.com/vi/test_id/default.jpg"
+      width="auto"
+    />
+  </div>
+  <div
+    className="jsx-250553575"
+  >
+    <div
+      className="jsx-4247411757 jsx-873826105"
+      style={Object {}}
+    >
+      title
+    </div>
+    <div
+      className="jsx-4247411757 jsx-482228210"
+      style={Object {}}
+    >
+      subtitle
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Card.js should match the Content spanshot 1`] = `
+<div
+  className="jsx-250553575"
+>
+  Content
+</div>
+`;
+
+exports[`components/Card.js should match the Left spanshot 1`] = `
+<div
+  className="jsx-4231049512"
+>
+  <img
+    alt="YT"
+    className="jsx-4231049512"
+    height="14rem"
+    src="https://i.ytimg.com/vi/test_id/default.jpg"
+    width="auto"
+  />
+</div>
+`;

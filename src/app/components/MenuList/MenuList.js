@@ -35,7 +35,7 @@ export default class MenuList extends PureComponent {
         <style jsx>{`
           div {
             opacity: ${isMenuOpen ? 1 : 0};
-            z-index: ${isMenuOpen ? 10 : 0};
+            z-index: ${isMenuOpen ? 10 : -1};
           }
         `}</style>
       </div>
