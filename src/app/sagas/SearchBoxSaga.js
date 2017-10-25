@@ -4,10 +4,10 @@ import { CATPURE_SEARCH_INPUT } from '../constants/ActionTypes'
 import { FetchSearchResultSuccess, FetchSearchResultError } from '../actions'
 import { getSearchResult } from './api/YoutubeDataAPI'
 
-const FetchSearchResult = function*({ input }) {
+export const FetchSearchResult = function*({ input }) {
   yield call(delay, 500)
   try {
-    let result = yield getSearchResult(input)
+    let result = yield call(getSearchResult, input)
     yield put(FetchSearchResultSuccess(result))
   } catch (e) {
     yield put(FetchSearchResultError())
