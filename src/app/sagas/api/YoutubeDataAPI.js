@@ -1,20 +1,19 @@
 import axios from 'axios'
 
-const YoutubeDataAPI = axios.create({
-  baseURL: 'https://www.googleapis.com/youtube/v3/',
-  params: {
-    part: 'snippet',
-    maxResults: '5',
-    type: 'video',
-    videoCategoryId: '10',
-    fields: 'items(id,snippet/title)',
-    key: 'AIzaSyDt03O45GRK2doERZICfzCgUbeXVFtLpiY'
-  }
-})
+export const baseParams = {
+  part: 'snippet',
+  maxResults: '5',
+  type: 'video',
+  videoCategoryId: '10',
+  fields: 'items(id,snippet/title)',
+  key: 'AIzaSyDt03O45GRK2doERZICfzCgUbeXVFtLpiY'
+}
+export const baseURL = 'https://www.googleapis.com/youtube/v3'
 
-export const getSearchResult = async text => {
-  const res = await YoutubeDataAPI.get(`/search`, {
+export const getSearchResult = async (text) => {
+  const res = await axios.get(`${baseURL}/search`, {
     params: {
+      ...baseParams,
       q: text
     }
   })
