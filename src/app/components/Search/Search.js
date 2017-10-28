@@ -28,7 +28,7 @@ export default class Search extends PureComponent {
             }}
           />
         </div>
-        {input && <DisplayResult result={result} IsError={IsError} />}
+        {input && <DisplayResult result={result} IsError={IsError} ToggleSearch={ToggleSearch} />}
 
         <style jsx>{`
           div.container {

@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { string } from 'prop-types'
+import { string, func } from 'prop-types'
 import { color } from '../../constants/theme'
 import Left from './Left'
 import Content from './Content'
@@ -10,13 +10,14 @@ export default class Card extends PureComponent {
     id: string.isRequired,
     title: string.isRequired,
     subtitle: string,
-    height: string
+    height: string,
+    onClick: func.isRequired
   }
 
   render() {
-    const { id, title, subtitle, height = 'auto' } = this.props
+    const { id, title, subtitle, height = 'auto', onClick } = this.props
     return (
-      <div>
+      <div onClick={onClick}>
         <Left id={id} height={height} />
         <Content>
           <Title>{title}</Title>

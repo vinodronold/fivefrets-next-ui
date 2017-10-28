@@ -7,7 +7,7 @@
   "author": "Vinod Ronold <vinodronoldbe@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "test": "jest --verbose --silent --coverage",
     "build": "next build",
     "start": "next start"

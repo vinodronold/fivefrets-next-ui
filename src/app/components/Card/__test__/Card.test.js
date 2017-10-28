@@ -15,12 +15,14 @@ describe('components/Card.js', () => {
   })
 
   it('should match the Card spanshot with default height', () => {
-    const _card = renderer.create(<Card id={'test_id'} title={'title'} subtitle={'subtitle'} />)
+    const _card = renderer.create(<Card id={'test_id'} title={'title'} subtitle={'subtitle'} onClick={jest.fn()} />)
     expect(_card).toMatchSnapshot()
   })
 
   it('should match the Card spanshot with defined height', () => {
-    const _card = renderer.create(<Card id={'test_id'} title={'title'} subtitle={'subtitle'} height={'20rem'} />)
+    const _card = renderer.create(
+      <Card id={'test_id'} title={'title'} subtitle={'subtitle'} height={'20rem'} onClick={jest.fn()} />
+    )
     expect(_card).toMatchSnapshot()
   })
 })

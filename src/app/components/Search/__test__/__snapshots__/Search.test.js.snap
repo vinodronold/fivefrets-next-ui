@@ -51,6 +51,7 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot wit
 >
   <div
     className="jsx-2416660906"
+    onClick={[Function]}
   >
     <div
       className="jsx-4231049512"
@@ -82,6 +83,7 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot wit
   </div>
   <div
     className="jsx-2416660906"
+    onClick={[Function]}
   >
     <div
       className="jsx-4231049512"
@@ -111,6 +113,25 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot wit
       </div>
     </div>
   </div>
+</div>
+`;
+
+exports[`components/Search DisplayResult should match snapshot after clicking Card 1`] = `
+<div
+  className="jsx-1201711722"
+>
+  <Card
+    height="45rem"
+    id={1}
+    key="1"
+    onClick={[Function]}
+    subtitle="subtitle 1"
+    title="title 1"
+  />
+  <JSXStyle
+    css="div.jsx-1201711722{padding:1rem;display:block;}"
+    styleId="1201711722"
+  />
 </div>
 `;
 

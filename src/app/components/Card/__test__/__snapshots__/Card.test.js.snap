@@ -3,6 +3,7 @@
 exports[`components/Card.js should match the Card spanshot with default height 1`] = `
 <div
   className="jsx-2416660906"
+  onClick={[Function]}
 >
   <div
     className="jsx-4231049512"
@@ -37,6 +38,7 @@ exports[`components/Card.js should match the Card spanshot with default height 1
 exports[`components/Card.js should match the Card spanshot with defined height 1`] = `
 <div
   className="jsx-2416660906"
+  onClick={[Function]}
 >
   <div
     className="jsx-4231049512"

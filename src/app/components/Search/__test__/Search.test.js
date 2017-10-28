@@ -2,7 +2,10 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import { shallow } from 'enzyme'
 import Search from '../Search'
-import DisplayResult from '../DisplayResult'
+import DisplayResult, { handleRouteChangeComplete } from '../DisplayResult'
+import Card from '../../Card'
+
+jest.mock('next/router')
 
 describe('components/Search', () => {
   describe('Search', () => {
@@ -65,7 +68,7 @@ describe('components/Search', () => {
 
   describe('DisplayResult', () => {
     it('should match DisplayResult snapshot', () => {
-      const _display_result = renderer.create(<DisplayResult />)
+      const _display_result = renderer.create(<DisplayResult ToggleSearch={jest.fn} />)
       expect(_display_result).toMatchSnapshot()
     })
     it('should match DisplayResult snapshot with results', () => {
@@ -75,13 +78,29 @@ describe('components/Search', () => {
             { id: 1, title: 'title 1', subtitle: 'subtitle 1' },
             { id: 2, title: 'title 2', subtitle: 'subtitle 2' }
           ]}
+          ToggleSearch={jest.fn}
         />
       )
       expect(_display_result).toMatchSnapshot()
     })
     it('should match DisplayResult snapshot when Error', () => {
-      const _display_result = renderer.create(<DisplayResult IsError={true} />)
+      const _display_result = renderer.create(<DisplayResult IsError={true} ToggleSearch={jest.fn} />)
       expect(_display_result).toMatchSnapshot()
+    })
+    it('should match snapshot after clicking Card', () => {
+      
+      const _ToggleSearch = jest.fn()
+      const _display_result = shallow(
+        <DisplayResult result={[{ id: 1, title: 'title 1', subtitle: 'subtitle 1' }]} ToggleSearch={_ToggleSearch} />
+      )
+      _display_result.find(Card).simulate('click')
+      expect(_display_result).toMatchSnapshot()
+      expect(_ToggleSearch).toBeCalled()
+    })
+    it('handleRouteChangeComplete should call ToggleSearch', () => {
+      const _ToggleSearch = jest.fn()
+      handleRouteChangeComplete(_ToggleSearch)
+      expect(_ToggleSearch).toBeCalled()
     })
   })
 
