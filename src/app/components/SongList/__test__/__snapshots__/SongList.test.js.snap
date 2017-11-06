@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/SongList should match snapshot when song is Empty 1`] = `
+<div
+  className="jsx-3649670468 container"
+>
+  <div
+    className="jsx-3649670468 loader"
+  >
+    <div
+      className="jsx-791847780 jsx-2291006144 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-3500035231 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-1901401244 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-40336921 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-3370661658 bar"
+    />
+  </div>
+  <div
+    className="jsx-4247411757 jsx-3754337244"
+    style={Object {}}
+  >
+    LOADING...
+  </div>
+</div>
+`;
+
+exports[`components/SongList should match snapshot with error 1`] = `
+<div
+  className="jsx-1762149615"
+  onClick={undefined}
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
+>
+  <div
+    className="jsx-4247411757 jsx-3754337244"
+    style={Object {}}
+  >
+    Oops.. ERROR.. Sorry.. please try refreshing... 
+  </div>
+</div>
+`;
+
+exports[`components/SongList should match snapshot with songs 1`] = `
+<div>
+  <div
+    className="jsx-4025574085"
+    onClick={[Function]}
+  >
+    <div
+      className="jsx-4231049512"
+    >
+      <img
+        alt="YT"
+        className="jsx-4231049512"
+        height="auto"
+        src="https://i.ytimg.com/vi/undefined/default.jpg"
+        width="auto"
+      />
+    </div>
+    <div
+      className="jsx-250553575"
+    >
+      <div
+        className="jsx-4247411757 jsx-873826105"
+        style={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;

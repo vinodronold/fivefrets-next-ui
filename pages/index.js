@@ -1,10 +1,11 @@
 import React from 'react'
 import { withReduxSaga } from '../src/app/store'
 import Layout from '../src/app/Layout'
+import Home from '../src/app/containers/Home'
 
 const _Home_Page = () => (
   <Layout>
-    <p>fivefrets UI</p>
+    <Home />
   </Layout>
 )
 

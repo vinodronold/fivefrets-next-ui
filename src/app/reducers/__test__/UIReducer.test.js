@@ -1,10 +1,6 @@
 import UIReducer from '../UIReducer'
 import InitialState from '../InitialState'
-import { ToggleMenu, ToggleSearch } from '../../actions'
-
-const NoAction = () => ({
-  type: 'NO_ACTION_BLAH_BLAH'
-})
+import { ToggleMenu, ToggleSearch, NoAction } from '../../actions'
 
 describe('UI Reducer', () => {
   it('should Toggle Menu', () => {

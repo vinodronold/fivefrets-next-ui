@@ -50,7 +50,7 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot wit
   className="jsx-1201711722"
 >
   <div
-    className="jsx-2416660906"
+    className="jsx-4025574085"
     onClick={[Function]}
   >
     <div
@@ -73,16 +73,10 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot wit
       >
         title 1
       </div>
-      <div
-        className="jsx-4247411757 jsx-482228210"
-        style={Object {}}
-      >
-        subtitle 1
-      </div>
     </div>
   </div>
   <div
-    className="jsx-2416660906"
+    className="jsx-4025574085"
     onClick={[Function]}
   >
     <div
@@ -105,12 +99,6 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot wit
       >
         title 2
       </div>
-      <div
-        className="jsx-4247411757 jsx-482228210"
-        style={Object {}}
-      >
-        subtitle 2
-      </div>
     </div>
   </div>
 </div>
@@ -125,7 +113,6 @@ exports[`components/Search DisplayResult should match snapshot after clicking Ca
     id={1}
     key="1"
     onClick={[Function]}
-    subtitle="subtitle 1"
     title="title 1"
   />
   <JSXStyle

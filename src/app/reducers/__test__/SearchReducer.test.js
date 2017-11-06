@@ -1,10 +1,12 @@
 import SearchReducer from '../SearchReducer'
 import InitialState from '../InitialState'
-import { CaptureSearchInput, ToggleSearch, FetchSearchResultSuccess, FetchSearchResultError } from '../../actions'
-
-const NoAction = () => ({
-  type: 'NO_ACTION_BLAH_BLAH'
-})
+import {
+  CaptureSearchInput,
+  ToggleSearch,
+  FetchSearchResultSuccess,
+  FetchSearchResultError,
+  NoAction
+} from '../../actions'
 
 describe('Search Reducer', () => {
   it('should Capture Search Input', () => {

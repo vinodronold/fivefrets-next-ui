@@ -6,7 +6,7 @@ const mapStateToProps = state => ({
 })
 const mapDispatchToProps = dispatch => ({
   ToggleMenu: () => {
-    dispatch(ToggleMenu)
+    dispatch(ToggleMenu())
   }
 })
 

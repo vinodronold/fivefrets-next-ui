@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { shape, string, bool, func } from 'prop-types'
+import { arrayOf, shape, string, bool, func } from 'prop-types'
 import Router from 'next/router'
 import Loader from '../Loader'
 import Card from '../Card'
@@ -12,11 +12,13 @@ export const handleRouteChangeComplete = ToggleSearch => {
 
 export default class DisplayResult extends PureComponent {
   static propTypes = {
-    result: shape({
-      id: string.isRequired,
-      title: string.isRequired,
-      subtitle: string
-    }),
+    result: arrayOf(
+      shape({
+        id: string.isRequired,
+        title: string.isRequired,
+        subtitle: string
+      })
+    ),
     IsError: bool,
     ToggleSearch: func.isRequired
   }

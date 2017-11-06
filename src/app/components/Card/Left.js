@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import { string } from 'prop-types'
-import { YTImg } from '../Utils'
+import { YTImg } from '../../utils'
 
 export default class Left extends PureComponent {
   static propTypes = {

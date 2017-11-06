@@ -54,8 +54,8 @@ describe('components/Search', () => {
           isSearchOpen={true}
           IsError={true}
           result={[
-            { id: 1, title: 'title 1', subtitle: 'subtitle 1' },
-            { id: 2, title: 'title 2', subtitle: 'subtitle 2' }
+            { id: 1, title: 'title 1'},
+            { id: 2, title: 'title 2'}
           ]}
           input={'abc'}
           ToggleSearch={jest.fn()}
@@ -75,8 +75,8 @@ describe('components/Search', () => {
       const _display_result = renderer.create(
         <DisplayResult
           result={[
-            { id: 1, title: 'title 1', subtitle: 'subtitle 1' },
-            { id: 2, title: 'title 2', subtitle: 'subtitle 2' }
+            { id: 1, title: 'title 1'},
+            { id: 2, title: 'title 2'}
           ]}
           ToggleSearch={jest.fn}
         />
@@ -91,7 +91,7 @@ describe('components/Search', () => {
       
       const _ToggleSearch = jest.fn()
       const _display_result = shallow(
-        <DisplayResult result={[{ id: 1, title: 'title 1', subtitle: 'subtitle 1' }]} ToggleSearch={_ToggleSearch} />
+        <DisplayResult result={[{ id: 1, title: 'title 1'}]} ToggleSearch={_ToggleSearch} />
       )
       _display_result.find(Card).simulate('click')
       expect(_display_result).toMatchSnapshot()

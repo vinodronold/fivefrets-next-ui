@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box should match the snapshot 1`] = `
+<div
+  className="jsx-1762149615"
+  onClick={undefined}
+  style={undefined}
+>
+  BOX
+</div>
+`;
