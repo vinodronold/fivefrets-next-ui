@@ -10,14 +10,19 @@ app
   .prepare()
   .then(() => {
     const server = express()
+
     server.get('/p/:id', (req, res) => {
-      console.log('server play')
       app.render(req, res, '/play', { id: req.params.id })
     })
+
     server.get('/b/:start', (req, res) => {
-      console.log('server browse')
       app.render(req, res, '/browse', { start: req.params.start })
     })
+
+    server.get('/l', (req, res) => {
+      app.render(req, res, '/login')
+    })
+
     server.get('*', (req, res) => {
       return handle(req, res)
     })

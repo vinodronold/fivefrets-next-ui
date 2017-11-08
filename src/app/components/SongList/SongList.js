@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react'
 import { bool, arrayOf, object } from 'prop-types'
 import Link from 'next/link'
+import { play } from '../../constants/routes'
 import Card from '../Card'
 import Loader from '../Loader'
 import Box from '../Box'
@@ -25,7 +26,7 @@ export default class SongList extends PureComponent {
     ) : songs && songs.length > 0 ? (
       <div>
         {songs.map(s => (
-          <Link prefetch key={s.id} href={`/play?id=${s.id}`} as={`/p/${s.id}`}>
+          <Link prefetch key={s.id} href={play.href(s.id)} as={play.as(s.id)}>
             <Card id={s.id} title={s.title} />
           </Link>
         ))}

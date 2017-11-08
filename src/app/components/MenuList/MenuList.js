@@ -1,19 +1,31 @@
 import React, { PureComponent } from 'react'
 import { bool } from 'prop-types'
-import { color } from '../..//constants/theme'
+import Router from 'next/router'
+import { home, browse, login } from '../../constants/routes'
+import { color } from '../../constants/theme'
 import Button from '../Button'
+
+export const onRouteChangeCompleteHandler = ToggleMenu => () => {
+  ToggleMenu()
+  Router.onRouteChangeComplete = null
+}
+
+export const onMenuClickHandler = (ToggleMenu, route) => () => {
+  Router.push(route.href(), route.as())
+  Router.onRouteChangeComplete = onRouteChangeCompleteHandler(ToggleMenu)
+}
 
 export default class MenuList extends PureComponent {
   static propTypes = {
     isMenuOpen: bool.isRequired
   }
   render() {
-    const { isMenuOpen } = this.props
+    const { isMenuOpen, ToggleMenu } = this.props
     return (
       <div>
-        <Button>Home</Button>
-        <Button>Browse</Button>
-        <Button>Login</Button>
+        <Button onClick={onMenuClickHandler(ToggleMenu, home)}>Home</Button>
+        <Button onClick={onMenuClickHandler(ToggleMenu, browse)}>Browse</Button>
+        <Button onClick={onMenuClickHandler(ToggleMenu, login)}>Login</Button>
         <style jsx>{`
           div {
             display: flex;

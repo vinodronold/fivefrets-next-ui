@@ -7,18 +7,21 @@ exports[`components/MenuList should match snapshot when Menu is closed 1`] = `
   <button
     className="jsx-67710159 jsx-4255320455 "
     disabled={false}
+    onClick={[Function]}
   >
     Home
   </button>
   <button
     className="jsx-67710159 jsx-4255320455 "
     disabled={false}
+    onClick={[Function]}
   >
     Browse
   </button>
   <button
     className="jsx-67710159 jsx-4255320455 "
     disabled={false}
+    onClick={[Function]}
   >
     Login
   </button>
@@ -32,18 +35,21 @@ exports[`components/MenuList should match snapshot when Menu is open 1`] = `
   <button
     className="jsx-67710159 jsx-4255320455 "
     disabled={false}
+    onClick={[Function]}
   >
     Home
   </button>
   <button
     className="jsx-67710159 jsx-4255320455 "
     disabled={false}
+    onClick={[Function]}
   >
     Browse
   </button>
   <button
     className="jsx-67710159 jsx-4255320455 "
     disabled={false}
+    onClick={[Function]}
   >
     Login
   </button>

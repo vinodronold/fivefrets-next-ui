@@ -88,18 +88,15 @@ describe('components/Search', () => {
       expect(_display_result).toMatchSnapshot()
     })
     it('should match snapshot after clicking Card', () => {
-      
-      const _ToggleSearch = jest.fn()
       const _display_result = shallow(
-        <DisplayResult result={[{ id: 1, title: 'title 1'}]} ToggleSearch={_ToggleSearch} />
+        <DisplayResult result={[{ id: 1, title: 'title 1'}]} ToggleSearch={jest.fn()} />
       )
       _display_result.find(Card).simulate('click')
       expect(_display_result).toMatchSnapshot()
-      expect(_ToggleSearch).toBeCalled()
     })
     it('handleRouteChangeComplete should call ToggleSearch', () => {
       const _ToggleSearch = jest.fn()
-      handleRouteChangeComplete(_ToggleSearch)
+      handleRouteChangeComplete(_ToggleSearch)()
       expect(_ToggleSearch).toBeCalled()
     })
   })

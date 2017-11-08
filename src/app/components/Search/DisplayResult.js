@@ -1,11 +1,12 @@
 import React, { PureComponent } from 'react'
 import { arrayOf, shape, string, bool, func } from 'prop-types'
 import Router from 'next/router'
+import { play } from '../../constants/routes'
 import Loader from '../Loader'
 import Card from '../Card'
 import { Caption } from '../Typography'
 
-export const handleRouteChangeComplete = ToggleSearch => {
+export const handleRouteChangeComplete = ToggleSearch => () => {
   ToggleSearch()
   Router.onRouteChangeComplete = null
 }
@@ -35,7 +36,7 @@ export default class DisplayResult extends PureComponent {
             {...r}
             height="45rem"
             onClick={() => {
-              Router.push(`/play?id=${r.id}`, `/p/${r.id}`)
+              Router.push(play.href(r.id), play.as(r.id))
               Router.onRouteChangeComplete = handleRouteChangeComplete(ToggleSearch)
             }}
           />
