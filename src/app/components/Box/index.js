@@ -1,3 +1,3 @@
-import Box, { BoxStyle } from './Box'
+import Box, { ErrorBox, BoxStyle } from './Box'
 export default Box
-export { BoxStyle }
+export { ErrorBox, BoxStyle }

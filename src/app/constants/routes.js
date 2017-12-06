@@ -9,8 +9,8 @@ export const play = {
 }
 
 export const browse = {
-  href: text => `/browse?text=${text}`,
-  as: text => `/b/${text}`
+  href: start => `/browse?start=${start}`,
+  as: start => `/b/${start}`
 }
 
 export const login = {

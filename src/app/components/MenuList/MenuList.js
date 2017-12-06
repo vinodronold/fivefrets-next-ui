@@ -10,8 +10,8 @@ export const onRouteChangeCompleteHandler = ToggleMenu => () => {
   Router.onRouteChangeComplete = null
 }
 
-export const onMenuClickHandler = (ToggleMenu, route) => () => {
-  Router.push(route.href(), route.as())
+export const onMenuClickHandler = (ToggleMenu, route, param) => () => {
+  Router.push(route.href(param), route.as(param))
   Router.onRouteChangeComplete = onRouteChangeCompleteHandler(ToggleMenu)
 }
 
@@ -23,9 +23,9 @@ export default class MenuList extends PureComponent {
     const { isMenuOpen, ToggleMenu } = this.props
     return (
       <div>
-        <Button onClick={onMenuClickHandler(ToggleMenu, home)}>Home</Button>
-        <Button onClick={onMenuClickHandler(ToggleMenu, browse)}>Browse</Button>
-        <Button onClick={onMenuClickHandler(ToggleMenu, login)}>Login</Button>
+        <Button onClick={onMenuClickHandler(ToggleMenu, home, null)}>Home</Button>
+        <Button onClick={onMenuClickHandler(ToggleMenu, browse, 'A')}>Browse</Button>
+        <Button onClick={onMenuClickHandler(ToggleMenu, login, null)}>Login</Button>
         <style jsx>{`
           div {
             display: flex;

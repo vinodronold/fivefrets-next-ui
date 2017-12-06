@@ -25,6 +25,7 @@ export default class Card extends PureComponent {
         <style jsx>{`
           div {
             ${BoxStyle};
+            background-color: ${color.bg()};
             cursor: pointer;
             transition: all 0.5s;
           }

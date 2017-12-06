@@ -1,2 +1,3 @@
 import HomePageSongs from './HomePageSongs'
-export { HomePageSongs }
+import BrowsePageSongs from './BrowsePageSongs'
+export { HomePageSongs, BrowsePageSongs }

@@ -40,4 +40,12 @@ describe('theme', () => {
   it('Background Color opacity should be updated', () => {
     expect(theme.color.bg(1)).toBe('rgba(0,0,0,1)')
   })
+
+  it('Error Color opacity should be updated', () => {
+    expect(theme.color.error()).toBe('rgba(244,67,54,0.8)')
+  })
+  
+  it('Error Color opacity should be updated', () => {
+    expect(theme.color.error(1)).toBe('rgba(244,67,54,1)')
+  })
 })

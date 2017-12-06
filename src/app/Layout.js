@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import { baseFont, fontFamily, color } from './constants/theme'
 import HeaderBar from './components/HeaderBar'
 import MenuButton from './containers/MenuButton'
@@ -8,6 +9,10 @@ import SearchBar from './containers/SearchBar'
 
 export default ({ children }) => (
   <div>
+    <Head>
+      <title>fivefrets.components</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <Content>
       <HeaderBar />
       <SearchBar />

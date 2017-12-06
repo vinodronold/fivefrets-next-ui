@@ -10,26 +10,16 @@ export default {
   },
   home: {
     isError: false,
-    // list: ['PiL5UTTTrxk', 'Ok9mfO_MeRU']
     list: []
   },
+  browse: {
+    isError: false,
+    curr_page: 1,
+    total_pages: 10,
+    start: '',
+    pages: {
+      // 1: ['PiL5UTTTrxk', 'Ok9mfO_MeRU']
+    }
+  },
   songs: {}
-  // songs: {
-  //   PiL5UTTTrxk: {
-  //     title: 'NO TITLE',
-  //     chords: {
-  //       1: { r: 1, q: 2, t: 1 },
-  //       2: { r: 3, t: 2 },
-  //       3: { r: 4, t: 3 }
-  //     }
-  //   },
-  //   Ok9mfO_MeRU: {
-  //     title: 'NO TITLE',
-  //     chords: {
-  //       1: { r: 1, q: 2, t: 1 },
-  //       2: { r: 3, t: 2 },
-  //       3: { r: 4, t: 3 }
-  //     }
-  //   }
-  // }
 }

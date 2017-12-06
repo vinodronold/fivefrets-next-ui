@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/HomeSongsList should match snapshot 1`] = `
+<div
+  className="jsx-3649670468 container"
+>
+  <div
+    className="jsx-3649670468 loader"
+  >
+    <div
+      className="jsx-791847780 jsx-2291006144 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-3500035231 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-1901401244 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-40336921 bar"
+    />
+    <div
+      className="jsx-791847780 jsx-3370661658 bar"
+    />
+  </div>
+  <div
+    className="jsx-4247411757 jsx-3754337244"
+    style={Object {}}
+  >
+    LOADING...
+  </div>
+</div>
+`;

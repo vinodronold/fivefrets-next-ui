@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/BrowseList/Paginate should go to Page 1 when Page Number is clicked 1`] = `
+<div
+  className="jsx-2366590580"
+>
+  <Button
+    disabled={false}
+    onClick={[Function]}
+  >
+    ↞ Prev
+  </Button>
+  <Button
+    onClick={[Function]}
+  >
+    2 of 10
+  </Button>
+  <Button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Next ↠
+  </Button>
+  <JSXStyle
+    css="div.jsx-2366590580{padding:1rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flexwrap:wrap;-ms-flexwrap:wrap;flexwrap:wrap;}"
+    styleId="2366590580"
+  />
+</div>
+`;
+
+exports[`components/BrowseList/Paginate should go to Page 1 when Prev is clicked 1`] = `
+<div
+  className="jsx-2366590580"
+>
+  <Button
+    disabled={false}
+    onClick={[Function]}
+  >
+    ↞ Prev
+  </Button>
+  <Button
+    onClick={[Function]}
+  >
+    2 of 10
+  </Button>
+  <Button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Next ↠
+  </Button>
+  <JSXStyle
+    css="div.jsx-2366590580{padding:1rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flexwrap:wrap;-ms-flexwrap:wrap;flexwrap:wrap;}"
+    styleId="2366590580"
+  />
+</div>
+`;
+
+exports[`components/BrowseList/Paginate should go to Page 2 when Next is clicked 1`] = `
+<div
+  className="jsx-2366590580"
+>
+  <Button
+    disabled={false}
+    onClick={[Function]}
+  >
+    ↞ Prev
+  </Button>
+  <Button
+    onClick={[Function]}
+  >
+    2 of 10
+  </Button>
+  <Button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Next ↠
+  </Button>
+  <JSXStyle
+    css="div.jsx-2366590580{padding:1rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flexwrap:wrap;-ms-flexwrap:wrap;flexwrap:wrap;}"
+    styleId="2366590580"
+  />
+</div>
+`;
+
+exports[`components/BrowseList/Paginate should match the snapshot 1`] = `
+<div
+  className="jsx-2366590580"
+>
+  <button
+    className="jsx-67710159 jsx-3220588738 "
+    disabled={true}
+    onClick={[Function]}
+  >
+    ↞ Prev
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+  >
+    1 of 10
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+  >
+    Next ↠
+  </button>
+</div>
+`;

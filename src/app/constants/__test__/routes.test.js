@@ -12,7 +12,7 @@ describe('constants/routes', () => {
   })
   it('browse route should pass', () => {
     const _text = 'test'
-    expect(browse.href(_text)).toBe(`/browse?text=${_text}`)
+    expect(browse.href(_text)).toBe(`/browse?start=${_text}`)
     expect(browse.as(_text)).toBe(`/b/${_text}`)
   })
   it('login route should pass', () => {

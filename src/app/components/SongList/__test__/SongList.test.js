@@ -7,12 +7,16 @@ jest.mock('next/router')
 describe('components/SongList', () => {
   const _songs = [
     {
-      1: { title: 'title 1' },
-      2: { title: 'title 2' }
+      id: 1,
+      title: 'title 1'
+    },
+    {
+      id: 2,
+      title: 'title 2'
     }
   ]
   it('should match snapshot when song is Empty', () => {
-    const _song_list = renderer.create(<SongList songs = {[]} FetchHomePageSongs={jest.fn()} />)
+    const _song_list = renderer.create(<SongList songs={[]} FetchHomePageSongs={jest.fn()} />)
     expect(_song_list).toMatchSnapshot()
   })
   it('should match snapshot with songs', () => {

@@ -34,13 +34,7 @@ exports[`components/SongList should match snapshot when song is Empty 1`] = `
 
 exports[`components/SongList should match snapshot with error 1`] = `
 <div
-  className="jsx-1762149615"
-  onClick={undefined}
-  style={
-    Object {
-      "textAlign": "center",
-    }
-  }
+  className="jsx-2583165224 "
 >
   <div
     className="jsx-4247411757 jsx-3754337244"
@@ -52,9 +46,9 @@ exports[`components/SongList should match snapshot with error 1`] = `
 `;
 
 exports[`components/SongList should match snapshot with songs 1`] = `
-<div>
+Array [
   <div
-    className="jsx-4025574085"
+    className="jsx-3275184174"
     onClick={[Function]}
   >
     <div
@@ -64,7 +58,7 @@ exports[`components/SongList should match snapshot with songs 1`] = `
         alt="YT"
         className="jsx-4231049512"
         height="auto"
-        src="https://i.ytimg.com/vi/undefined/default.jpg"
+        src="https://i.ytimg.com/vi/1/default.jpg"
         width="auto"
       />
     </div>
@@ -74,8 +68,36 @@ exports[`components/SongList should match snapshot with songs 1`] = `
       <div
         className="jsx-4247411757 jsx-873826105"
         style={Object {}}
+      >
+        title 1
+      </div>
+    </div>
+  </div>,
+  <div
+    className="jsx-3275184174"
+    onClick={[Function]}
+  >
+    <div
+      className="jsx-4231049512"
+    >
+      <img
+        alt="YT"
+        className="jsx-4231049512"
+        height="auto"
+        src="https://i.ytimg.com/vi/2/default.jpg"
+        width="auto"
       />
     </div>
-  </div>
-</div>
+    <div
+      className="jsx-250553575"
+    >
+      <div
+        className="jsx-4247411757 jsx-873826105"
+        style={Object {}}
+      >
+        title 2
+      </div>
+    </div>
+  </div>,
+]
 `;

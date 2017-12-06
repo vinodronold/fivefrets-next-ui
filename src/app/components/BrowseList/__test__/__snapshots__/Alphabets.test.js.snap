@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
+<div
+  className="jsx-3971180074 "
+>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    0 - 1
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    A
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    B
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    C
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    D
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    E
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    F
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    G
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    H
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    I
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    J
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    K
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    L
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    M
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    N
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    O
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    P
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    Q
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    R
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    S
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    T
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    U
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    V
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    W
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    X
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    Y
+  </button>
+  <button
+    className="jsx-67710159 jsx-4255320455 "
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "padding": ".5rem",
+      }
+    }
+  >
+    Z
+  </button>
+</div>
+`;

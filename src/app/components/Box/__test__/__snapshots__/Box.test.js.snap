@@ -2,9 +2,7 @@
 
 exports[`Box should match the snapshot 1`] = `
 <div
-  className="jsx-1762149615"
-  onClick={undefined}
-  style={undefined}
+  className="jsx-3971180074 "
 >
   BOX
 </div>

@@ -50,7 +50,7 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot wit
   className="jsx-1201711722"
 >
   <div
-    className="jsx-4025574085"
+    className="jsx-3275184174"
     onClick={[Function]}
   >
     <div
@@ -76,7 +76,7 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot wit
     </div>
   </div>
   <div
-    className="jsx-4025574085"
+    className="jsx-3275184174"
     onClick={[Function]}
   >
     <div

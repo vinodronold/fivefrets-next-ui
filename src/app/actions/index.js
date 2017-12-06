@@ -1,6 +1,12 @@
 import { ToggleMenu } from './Menu'
 import { ToggleSearch, CaptureSearchInput, FetchSearchResultSuccess, FetchSearchResultError } from './Search'
 import { FetchHomePageSongs, FetchHomePageSongsSuccess, FetchHomePageSongsError } from './HomePage'
+import {
+  FetchBrowsePageSongs,
+  FetchBrowsePageSongsSuccess,
+  FetchBrowsePageSongsError,
+  MoveToBrowsePage
+} from './BrowsePage'
 
 export {
   ToggleMenu,
@@ -10,7 +16,11 @@ export {
   FetchSearchResultError,
   FetchHomePageSongs,
   FetchHomePageSongsSuccess,
-  FetchHomePageSongsError
+  FetchHomePageSongsError,
+  FetchBrowsePageSongs,
+  FetchBrowsePageSongsSuccess,
+  FetchBrowsePageSongsError,
+  MoveToBrowsePage
 }
 
 export const NoAction = () => ({

@@ -1,8 +1,7 @@
 import { createSelector } from 'reselect'
 import { GetHome, GetSongs } from './GetState'
+import FormatSong from './FormatSong'
 
-const BuildHomePageSongs = (home, songs) =>
-  home.list.map(s => ({ id: s, title: songs[s] ? songs[s].title : 'Loading...' }))
-
+const BuildHomePageSongs = (home, songs) => home.list.map(s => FormatSong(s, songs[s]))
 const HomePageSongs = createSelector(GetHome, GetSongs, BuildHomePageSongs)
 export default HomePageSongs
