@@ -2,10 +2,10 @@
 
 exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
 <div
-  className="jsx-3971180074 "
+  className="jsx-3706451951 "
 >
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -17,7 +17,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     0 - 1
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -29,7 +29,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     A
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -41,7 +41,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     B
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -53,7 +53,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     C
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -65,7 +65,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     D
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -77,7 +77,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     E
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -89,7 +89,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     F
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -101,7 +101,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     G
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -113,7 +113,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     H
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -125,7 +125,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     I
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -137,7 +137,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     J
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -149,7 +149,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     K
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -161,7 +161,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     L
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -173,7 +173,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     M
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -185,7 +185,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     N
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -197,7 +197,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     O
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -209,7 +209,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     P
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -221,7 +221,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     Q
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -233,7 +233,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     R
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -245,7 +245,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     S
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -257,7 +257,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     T
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -269,7 +269,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     U
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -281,7 +281,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     V
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -293,7 +293,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     W
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -305,7 +305,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     X
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={
@@ -317,7 +317,7 @@ exports[`components/BrowseList/Alphabets should match the snapshot 1`] = `
     Y
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
     style={

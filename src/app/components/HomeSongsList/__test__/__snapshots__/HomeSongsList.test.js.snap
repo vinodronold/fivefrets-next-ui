@@ -2,25 +2,25 @@
 
 exports[`components/HomeSongsList should match snapshot 1`] = `
 <div
-  className="jsx-3649670468 container"
+  className="jsx-1057316989 container"
 >
   <div
-    className="jsx-3649670468 loader"
+    className="jsx-1057316989 loader"
   >
     <div
-      className="jsx-791847780 jsx-2291006144 bar"
+      className="jsx-2763792101 jsx-3891026477 bar"
     />
     <div
-      className="jsx-791847780 jsx-3500035231 bar"
+      className="jsx-2763792101 jsx-1900015026 bar"
     />
     <div
-      className="jsx-791847780 jsx-1901401244 bar"
+      className="jsx-2763792101 jsx-2551557105 bar"
     />
     <div
-      className="jsx-791847780 jsx-40336921 bar"
+      className="jsx-2763792101 jsx-2892672692 bar"
     />
     <div
-      className="jsx-791847780 jsx-3370661658 bar"
+      className="jsx-2763792101 jsx-216973047 bar"
     />
   </div>
   <div

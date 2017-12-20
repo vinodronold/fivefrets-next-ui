@@ -2,24 +2,24 @@
 
 exports[`components/MenuList should match snapshot when Menu is closed 1`] = `
 <div
-  className="jsx-2435928121 jsx-2330443265"
+  className="jsx-361472772 jsx-3865884300"
 >
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
   >
     Home
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
   >
     Browse
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
   >
@@ -30,24 +30,24 @@ exports[`components/MenuList should match snapshot when Menu is closed 1`] = `
 
 exports[`components/MenuList should match snapshot when Menu is open 1`] = `
 <div
-  className="jsx-2435928121 jsx-410418109"
+  className="jsx-361472772 jsx-3245243312"
 >
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
   >
     Home
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
   >
     Browse
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
   >

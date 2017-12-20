@@ -2,42 +2,42 @@
 
 exports[`components/Hamburger.js should match Arm Snapshot when Closed 1`] = `
 <span
-  className="jsx-301163176 jsx-179826770"
+  className="jsx-3274965410 jsx-3124052305"
 />
 `;
 
 exports[`components/Hamburger.js should match Arm Snapshot when Open 1`] = `
 <span
-  className="jsx-301163176 jsx-794770576"
+  className="jsx-3274965410 jsx-985345683"
 />
 `;
 
 exports[`components/Hamburger.js should match Hamburger Snapshot when Menu is Open 1`] = `
 <div
-  className="jsx-4125533449 container"
+  className="jsx-4157279021 container"
   onClick={[Function]}
 >
   <div
-    className="jsx-4125533449 layers"
+    className="jsx-4157279021 layers"
   >
     <span
-      className="jsx-1304497301"
+      className="jsx-2767301838"
     />
     <span
-      className="jsx-283106720"
+      className="jsx-946195675"
     />
     <span
-      className="jsx-3759017912"
+      className="jsx-1187536323"
     />
   </div>
   <div
-    className="jsx-4125533449 arms"
+    className="jsx-4157279021 arms"
   >
     <span
-      className="jsx-301163176 jsx-794770576"
+      className="jsx-3274965410 jsx-985345683"
     />
     <span
-      className="jsx-301163176 jsx-3128104624"
+      className="jsx-3274965410 jsx-3918374579"
     />
   </div>
 </div>
@@ -45,30 +45,30 @@ exports[`components/Hamburger.js should match Hamburger Snapshot when Menu is Op
 
 exports[`components/Hamburger.js should match Hamburger Snapshot when Search is Open 1`] = `
 <div
-  className="jsx-4125533449 container"
+  className="jsx-4157279021 container"
   onClick={[Function]}
 >
   <div
-    className="jsx-4125533449 layers"
+    className="jsx-4157279021 layers"
   >
     <span
-      className="jsx-1304497301"
+      className="jsx-2767301838"
     />
     <span
-      className="jsx-283106720"
+      className="jsx-946195675"
     />
     <span
-      className="jsx-3759017912"
+      className="jsx-1187536323"
     />
   </div>
   <div
-    className="jsx-4125533449 arms"
+    className="jsx-4157279021 arms"
   >
     <span
-      className="jsx-301163176 jsx-794770576"
+      className="jsx-3274965410 jsx-985345683"
     />
     <span
-      className="jsx-301163176 jsx-3128104624"
+      className="jsx-3274965410 jsx-3918374579"
     />
   </div>
 </div>
@@ -76,30 +76,30 @@ exports[`components/Hamburger.js should match Hamburger Snapshot when Search is 
 
 exports[`components/Hamburger.js should match Hamburger Snapshot when close 1`] = `
 <div
-  className="jsx-4125533449 container"
+  className="jsx-4157279021 container"
   onClick={[Function]}
 >
   <div
-    className="jsx-4125533449 layers"
+    className="jsx-4157279021 layers"
   >
     <span
-      className="jsx-3221435804"
+      className="jsx-1616547687"
     />
     <span
-      className="jsx-3063298808"
+      className="jsx-2337808643"
     />
     <span
-      className="jsx-3630948284"
+      className="jsx-1707466055"
     />
   </div>
   <div
-    className="jsx-4125533449 arms"
+    className="jsx-4157279021 arms"
   >
     <span
-      className="jsx-301163176 jsx-179826770"
+      className="jsx-3274965410 jsx-3124052305"
     />
     <span
-      className="jsx-301163176 jsx-2834914619"
+      className="jsx-3274965410 jsx-3922865976"
     />
   </div>
 </div>
@@ -107,12 +107,12 @@ exports[`components/Hamburger.js should match Hamburger Snapshot when close 1`] 
 
 exports[`components/Hamburger.js should match Layer Snapshot when Closed 1`] = `
 <span
-  className="jsx-3221435804"
+  className="jsx-1616547687"
 />
 `;
 
 exports[`components/Hamburger.js should match Layer Snapshot when Open 1`] = `
 <span
-  className="jsx-1304497301"
+  className="jsx-2767301838"
 />
 `;

@@ -1,13 +1,11 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 import { color } from '../../constants/theme'
 
-export default class HeaderBar extends PureComponent {
-  render() {
-    return (
-      <div>
-        <span>fivefrets</span>
-        <style jsx>
-          {`
+export default () => (
+  <div>
+    <span>fivefrets</span>
+    <style jsx>
+      {`
           div {
             position: relative;
             top: 0;
@@ -28,8 +26,6 @@ export default class HeaderBar extends PureComponent {
             font-feature-settings: "liga" 0;
           }
           `}
-        </style>
-      </div>
-    )
-  }
-}
+    </style>
+  </div>
+)

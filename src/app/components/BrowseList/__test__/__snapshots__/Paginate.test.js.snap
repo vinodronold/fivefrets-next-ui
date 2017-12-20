@@ -11,6 +11,7 @@ exports[`components/BrowseList/Paginate should go to Page 1 when Page Number is 
     ↞ Prev
   </Button>
   <Button
+    disabled={false}
     onClick={[Function]}
   >
     2 of 10
@@ -39,6 +40,7 @@ exports[`components/BrowseList/Paginate should go to Page 1 when Prev is clicked
     ↞ Prev
   </Button>
   <Button
+    disabled={false}
     onClick={[Function]}
   >
     2 of 10
@@ -67,6 +69,7 @@ exports[`components/BrowseList/Paginate should go to Page 2 when Next is clicked
     ↞ Prev
   </Button>
   <Button
+    disabled={false}
     onClick={[Function]}
   >
     2 of 10
@@ -89,21 +92,21 @@ exports[`components/BrowseList/Paginate should match the snapshot 1`] = `
   className="jsx-2366590580"
 >
   <button
-    className="jsx-67710159 jsx-3220588738 "
+    className="jsx-856601377 jsx-1171890091 "
     disabled={true}
     onClick={[Function]}
   >
     ↞ Prev
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
   >
     1 of 10
   </button>
   <button
-    className="jsx-67710159 jsx-4255320455 "
+    className="jsx-856601377 jsx-3822723886 "
     disabled={false}
     onClick={[Function]}
   >

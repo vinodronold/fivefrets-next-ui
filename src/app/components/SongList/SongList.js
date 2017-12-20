@@ -15,7 +15,6 @@ export default class SongList extends PureComponent {
 
   render() {
     const { isError = false, songs } = this.props
-    console.log(songs)
     return isError ? (
       <ErrorBox>
         <Caption>Oops.. ERROR.. Sorry.. please try refreshing... </Caption>

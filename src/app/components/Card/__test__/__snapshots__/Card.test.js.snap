@@ -2,22 +2,22 @@
 
 exports[`components/Card.js should match the Card spanshot with default height 1`] = `
 <div
-  className="jsx-3275184174"
+  className="jsx-3158207177"
   onClick={[Function]}
 >
   <div
-    className="jsx-4231049512"
+    className="jsx-2346595264"
   >
     <img
       alt="YT"
-      className="jsx-4231049512"
+      className="jsx-2346595264"
       height="auto"
       src="https://i.ytimg.com/vi/test_id/default.jpg"
       width="auto"
     />
   </div>
   <div
-    className="jsx-250553575"
+    className="jsx-3103242415"
   >
     <div
       className="jsx-4247411757 jsx-873826105"
@@ -31,22 +31,22 @@ exports[`components/Card.js should match the Card spanshot with default height 1
 
 exports[`components/Card.js should match the Card spanshot with defined height 1`] = `
 <div
-  className="jsx-3275184174"
+  className="jsx-3158207177"
   onClick={[Function]}
 >
   <div
-    className="jsx-4231049512"
+    className="jsx-2346595264"
   >
     <img
       alt="YT"
-      className="jsx-4231049512"
+      className="jsx-2346595264"
       height="20rem"
       src="https://i.ytimg.com/vi/test_id/default.jpg"
       width="auto"
     />
   </div>
   <div
-    className="jsx-250553575"
+    className="jsx-3103242415"
   >
     <div
       className="jsx-4247411757 jsx-873826105"
@@ -60,7 +60,7 @@ exports[`components/Card.js should match the Card spanshot with defined height 1
 
 exports[`components/Card.js should match the Content spanshot 1`] = `
 <div
-  className="jsx-250553575"
+  className="jsx-3103242415"
 >
   Content
 </div>
@@ -68,11 +68,11 @@ exports[`components/Card.js should match the Content spanshot 1`] = `
 
 exports[`components/Card.js should match the Left spanshot 1`] = `
 <div
-  className="jsx-4231049512"
+  className="jsx-2346595264"
 >
   <img
     alt="YT"
-    className="jsx-4231049512"
+    className="jsx-2346595264"
     height="14rem"
     src="https://i.ytimg.com/vi/test_id/default.jpg"
     width="auto"

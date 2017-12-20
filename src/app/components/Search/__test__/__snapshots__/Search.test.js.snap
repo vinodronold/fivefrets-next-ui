@@ -2,25 +2,25 @@
 
 exports[`components/Search DisplayResult should match DisplayResult snapshot 1`] = `
 <div
-  className="jsx-3649670468 container"
+  className="jsx-1057316989 container"
 >
   <div
-    className="jsx-3649670468 loader"
+    className="jsx-1057316989 loader"
   >
     <div
-      className="jsx-791847780 jsx-2291006144 bar"
+      className="jsx-2763792101 jsx-3891026477 bar"
     />
     <div
-      className="jsx-791847780 jsx-3500035231 bar"
+      className="jsx-2763792101 jsx-1900015026 bar"
     />
     <div
-      className="jsx-791847780 jsx-1901401244 bar"
+      className="jsx-2763792101 jsx-2551557105 bar"
     />
     <div
-      className="jsx-791847780 jsx-40336921 bar"
+      className="jsx-2763792101 jsx-2892672692 bar"
     />
     <div
-      className="jsx-791847780 jsx-3370661658 bar"
+      className="jsx-2763792101 jsx-216973047 bar"
     />
   </div>
   <div
@@ -47,25 +47,25 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot whe
 
 exports[`components/Search DisplayResult should match DisplayResult snapshot with results 1`] = `
 <div
-  className="jsx-1201711722"
+  className="jsx-3645300665"
 >
   <div
-    className="jsx-3275184174"
+    className="jsx-3158207177"
     onClick={[Function]}
   >
     <div
-      className="jsx-4231049512"
+      className="jsx-2346595264"
     >
       <img
         alt="YT"
-        className="jsx-4231049512"
+        className="jsx-2346595264"
         height="45rem"
         src="https://i.ytimg.com/vi/1/default.jpg"
         width="auto"
       />
     </div>
     <div
-      className="jsx-250553575"
+      className="jsx-3103242415"
     >
       <div
         className="jsx-4247411757 jsx-873826105"
@@ -76,22 +76,22 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot wit
     </div>
   </div>
   <div
-    className="jsx-3275184174"
+    className="jsx-3158207177"
     onClick={[Function]}
   >
     <div
-      className="jsx-4231049512"
+      className="jsx-2346595264"
     >
       <img
         alt="YT"
-        className="jsx-4231049512"
+        className="jsx-2346595264"
         height="45rem"
         src="https://i.ytimg.com/vi/2/default.jpg"
         width="auto"
       />
     </div>
     <div
-      className="jsx-250553575"
+      className="jsx-3103242415"
     >
       <div
         className="jsx-4247411757 jsx-873826105"
@@ -106,7 +106,7 @@ exports[`components/Search DisplayResult should match DisplayResult snapshot wit
 
 exports[`components/Search DisplayResult should match snapshot after clicking Card 1`] = `
 <div
-  className="jsx-1201711722"
+  className="jsx-3645300665"
 >
   <Card
     height="45rem"
@@ -116,8 +116,8 @@ exports[`components/Search DisplayResult should match snapshot after clicking Ca
     title="title 1"
   />
   <JSXStyle
-    css="div.jsx-1201711722{padding:1rem;display:block;}"
-    styleId="1201711722"
+    css="div.jsx-3645300665{padding:1rem;display:block;}"
+    styleId="3645300665"
   />
 </div>
 `;

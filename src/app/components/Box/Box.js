@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 import { node, string } from 'prop-types'
 import { color } from '../../constants/theme'
 
@@ -9,37 +9,39 @@ min-height: 3rem;
 margin: 1rem auto;
 width: 80%;
 `
-
-export default class Box extends PureComponent {
-  static propTypes = {
-    children: node,
-    bgColor: string
-  }
-
-  render() {
-    const { children, bgColor = color.bg(), ...props } = this.props
-    return (
-      <div {...props}>
-        {children}
-        <style jsx>{`
-          div {
-            ${BoxStyle};
-            background-color: ${bgColor};
-            justify-content: center;
-          }
-        `}</style>
-      </div>
-    )
-  }
+const _propTypes_Box = {
+  children: node,
+  bgColor: string
 }
 
-export class ErrorBox extends PureComponent {
-  render() {
-    const { children, ...props } = this.props
-    return (
-      <Box bgColor={color.error()} {...props}>
-        {children}
-      </Box>
-    )
-  }
+const _defaultProps_Box = {
+  bgColor: color.bg()
 }
+
+const Box = ({ children, bgColor, ...props }) => (
+  <div {...props}>
+    {children}
+    <style jsx>{`
+      div {
+        ${BoxStyle};
+        background-color: ${bgColor};
+        justify-content: center;
+      }
+    `}</style>
+  </div>
+)
+Box.propTypes = _propTypes_Box
+Box.defaultProps = _defaultProps_Box
+
+const _propTypes_ErrorBox = {
+  children: node
+}
+const ErrorBox = ({ children, ...props }) => (
+  <Box bgColor={color.error()} {...props}>
+    {children}
+  </Box>
+)
+ErrorBox.propTypes = _propTypes_ErrorBox
+
+export default Box
+export { ErrorBox }

@@ -13,8 +13,6 @@ const _defaultProps = {
   total_pages: 1
 }
 
-/// prop type validation is not happening in test
-
 const Paginate = ({ curr_page, total_pages, MoveToBrowsePage }) => (
   <div>
     <Button

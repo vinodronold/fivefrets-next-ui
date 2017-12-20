@@ -2,12 +2,12 @@
 
 exports[`components/ContentWrapper should match menu is closed 1`] = `
 <div
-  className="jsx-2935080927"
+  className="jsx-997264720"
 />
 `;
 
 exports[`components/ContentWrapper should match menu is open 1`] = `
 <div
-  className="jsx-115571663"
+  className="jsx-2472722752"
 />
 `;

@@ -2,25 +2,25 @@
 
 exports[`components/SongList should match snapshot when song is Empty 1`] = `
 <div
-  className="jsx-3649670468 container"
+  className="jsx-1057316989 container"
 >
   <div
-    className="jsx-3649670468 loader"
+    className="jsx-1057316989 loader"
   >
     <div
-      className="jsx-791847780 jsx-2291006144 bar"
+      className="jsx-2763792101 jsx-3891026477 bar"
     />
     <div
-      className="jsx-791847780 jsx-3500035231 bar"
+      className="jsx-2763792101 jsx-1900015026 bar"
     />
     <div
-      className="jsx-791847780 jsx-1901401244 bar"
+      className="jsx-2763792101 jsx-2551557105 bar"
     />
     <div
-      className="jsx-791847780 jsx-40336921 bar"
+      className="jsx-2763792101 jsx-2892672692 bar"
     />
     <div
-      className="jsx-791847780 jsx-3370661658 bar"
+      className="jsx-2763792101 jsx-216973047 bar"
     />
   </div>
   <div
@@ -34,7 +34,7 @@ exports[`components/SongList should match snapshot when song is Empty 1`] = `
 
 exports[`components/SongList should match snapshot with error 1`] = `
 <div
-  className="jsx-2583165224 "
+  className="jsx-2627758701 "
 >
   <div
     className="jsx-4247411757 jsx-3754337244"
@@ -48,22 +48,22 @@ exports[`components/SongList should match snapshot with error 1`] = `
 exports[`components/SongList should match snapshot with songs 1`] = `
 Array [
   <div
-    className="jsx-3275184174"
+    className="jsx-3158207177"
     onClick={[Function]}
   >
     <div
-      className="jsx-4231049512"
+      className="jsx-2346595264"
     >
       <img
         alt="YT"
-        className="jsx-4231049512"
+        className="jsx-2346595264"
         height="auto"
         src="https://i.ytimg.com/vi/1/default.jpg"
         width="auto"
       />
     </div>
     <div
-      className="jsx-250553575"
+      className="jsx-3103242415"
     >
       <div
         className="jsx-4247411757 jsx-873826105"
@@ -74,22 +74,22 @@ Array [
     </div>
   </div>,
   <div
-    className="jsx-3275184174"
+    className="jsx-3158207177"
     onClick={[Function]}
   >
     <div
-      className="jsx-4231049512"
+      className="jsx-2346595264"
     >
       <img
         alt="YT"
-        className="jsx-4231049512"
+        className="jsx-2346595264"
         height="auto"
         src="https://i.ytimg.com/vi/2/default.jpg"
         width="auto"
       />
     </div>
     <div
-      className="jsx-250553575"
+      className="jsx-3103242415"
     >
       <div
         className="jsx-4247411757 jsx-873826105"

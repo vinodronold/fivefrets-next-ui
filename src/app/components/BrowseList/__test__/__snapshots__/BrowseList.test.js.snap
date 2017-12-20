@@ -3,10 +3,10 @@
 exports[`components/BrowseList should match snapshot 1`] = `
 Array [
   <div
-    className="jsx-3971180074 "
+    className="jsx-3706451951 "
   >
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -18,7 +18,7 @@ Array [
       0 - 1
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -30,7 +30,7 @@ Array [
       A
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -42,7 +42,7 @@ Array [
       B
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -54,7 +54,7 @@ Array [
       C
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -66,7 +66,7 @@ Array [
       D
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -78,7 +78,7 @@ Array [
       E
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -90,7 +90,7 @@ Array [
       F
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -102,7 +102,7 @@ Array [
       G
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -114,7 +114,7 @@ Array [
       H
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -126,7 +126,7 @@ Array [
       I
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -138,7 +138,7 @@ Array [
       J
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -150,7 +150,7 @@ Array [
       K
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -162,7 +162,7 @@ Array [
       L
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -174,7 +174,7 @@ Array [
       M
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -186,7 +186,7 @@ Array [
       N
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -198,7 +198,7 @@ Array [
       O
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -210,7 +210,7 @@ Array [
       P
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -222,7 +222,7 @@ Array [
       Q
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -234,7 +234,7 @@ Array [
       R
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -246,7 +246,7 @@ Array [
       S
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -258,7 +258,7 @@ Array [
       T
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -270,7 +270,7 @@ Array [
       U
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -282,7 +282,7 @@ Array [
       V
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -294,7 +294,7 @@ Array [
       W
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -306,7 +306,7 @@ Array [
       X
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -318,7 +318,7 @@ Array [
       Y
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
       style={
@@ -331,25 +331,25 @@ Array [
     </button>
   </div>,
   <div
-    className="jsx-3649670468 container"
+    className="jsx-1057316989 container"
   >
     <div
-      className="jsx-3649670468 loader"
+      className="jsx-1057316989 loader"
     >
       <div
-        className="jsx-791847780 jsx-2291006144 bar"
+        className="jsx-2763792101 jsx-3891026477 bar"
       />
       <div
-        className="jsx-791847780 jsx-3500035231 bar"
+        className="jsx-2763792101 jsx-1900015026 bar"
       />
       <div
-        className="jsx-791847780 jsx-1901401244 bar"
+        className="jsx-2763792101 jsx-2551557105 bar"
       />
       <div
-        className="jsx-791847780 jsx-40336921 bar"
+        className="jsx-2763792101 jsx-2892672692 bar"
       />
       <div
-        className="jsx-791847780 jsx-3370661658 bar"
+        className="jsx-2763792101 jsx-216973047 bar"
       />
     </div>
     <div
@@ -363,21 +363,21 @@ Array [
     className="jsx-2366590580"
   >
     <button
-      className="jsx-67710159 jsx-3220588738 "
+      className="jsx-856601377 jsx-1171890091 "
       disabled={true}
       onClick={[Function]}
     >
       ↞ Prev
     </button>
     <button
-      className="jsx-67710159 jsx-4255320455 "
+      className="jsx-856601377 jsx-3822723886 "
       disabled={false}
       onClick={[Function]}
     >
       1 of 1
     </button>
     <button
-      className="jsx-67710159 jsx-3220588738 "
+      className="jsx-856601377 jsx-1171890091 "
       disabled={true}
       onClick={[Function]}
     >
